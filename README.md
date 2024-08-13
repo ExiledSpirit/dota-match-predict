@@ -2,7 +2,7 @@
 
 ## Integrantes
 
-1. Vinicius de Morais Boim dos Santos
+1. Vinicius de Morais Boim dos Santos vmorais194@gmail.com
 2. Lucas Vinicius de Bortoli Santos
 3. Pedro Frasson
 4. Huan Radov Luchetti
@@ -12,20 +12,6 @@
 ### Classificação de Sentimento em Comentários usando algoritmo de aprendizado Naive-Bayes
 
 ### Predição de Partidas de Dota usando K-Nearest Neighbors (K-NN)
-[Repositório de Dota](https://www.kaggle.com/datasets/nihalbarua/dota2-competitive-picks)
-
-```
-    A ideia é apartir das taxas de vitórias e caracteristicas tentar determinar o que fazem herois serem mais 
-    vencedores e outros menos vencedores. Apartir disso traçar uma predição de partidas com composições de 5v5.
-```
-
-## Estrutura do trabalho
-
-1. Introdução
-2. Justificativa
-3. Exemplos de uso
-4. Análise
-5. Conclusão
 
 ## Exemplo de Plano de projeto
 
