@@ -10,9 +10,9 @@ O trabalho tem como objetivo trazer a analise do dataset e trabalhar com machine
     Introduzir artigo e Pesquisa bibliográfica
     Análise de outros Datasets e metologias escolhidas
 
-    | Aluno    | Atividade |
-    | -------- | --------- |
-    | Vinicius | Placeholder |
-    | Huan     | Placeholder |
-    | Gabriel  | Placeholder |
+| Aluno    | Atividade |
+| -------- | --------- |
+| Vinicius | Placeholder |
+| Huan     | Placeholder |
+| Gabriel  | Placeholder |
 
