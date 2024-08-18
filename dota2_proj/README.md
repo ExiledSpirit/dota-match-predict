@@ -26,3 +26,23 @@ O trabalho tem como objetivo trazer a analise do dataset e trabalhar com machine
 | Vinicius | Introduzir o Artigo |
 | Huan     | Sintetizar informações relevantes dos artigos e Datasets |
 | Gabriel  | Modelar tabela para trabalhar com as features |
+
+# Sprint 3
+## Objetivo
+    placeholder
+
+| Aluno    | Atividade |
+| -------- | --------- |
+| Vinicius | placeholder |
+| Huan     | placeholder |
+| Gabriel  | placeholder |
+
+# Sprint 4
+## Objetivo
+    placeholder
+
+| Aluno    | Atividade |
+| -------- | --------- |
+| Vinicius | placeholder |
+| Huan     | placeholder |
+| Gabriel  | placeholder |
