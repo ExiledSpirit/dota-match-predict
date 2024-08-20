@@ -2,6 +2,8 @@
 
 [Repositório de Dota partidas Competitivas](https://www.kaggle.com/datasets/darianogina/dota-2-matches-pro-leagues)
 
+[Trabalho para se basear](https://www.kaggle.com/code/kashnitsky/dota-2-win-prediction-random-forest-starter?scriptVersionId=12317746&cellId=2)
+
 O trabalho tem como objetivo trazer a analise do dataset e trabalhar com machine learning a capacidade de prever partidas de Dota.
 
 # Sprint 1
