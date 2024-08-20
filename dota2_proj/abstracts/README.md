@@ -9,12 +9,11 @@
 <p>
   Ao final, o documento conclui que o aprendizado de máquina supervisionado e o algoritmo K-NN foram apresentados de forma clara e simples. O artigo menciona que o problema de entender o aprendizado de máquina supervisionado   e o algoritmo K-NN foi resolvido através de métodos de exemplo fáceis.
 </p>
+
+## Pontos técnicos
 <p>
   O algoritmo K-Nearest Neighbor (K-NN) é um algoritmo de classificação supervisionada amplamente utilizado. Seu funcionamento pode ser explicado de forma mais detalhada da seguinte maneira:
 </p>
-
-## Pontos técnicos
-
 <p>
   Seleciona-se o valor de K, que representa o número de vizinhos mais próximos a serem considerados.
 </p>
