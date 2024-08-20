@@ -1,0 +1,41 @@
+league // Nome da liga, não é interessante
+league_id // ID da liga
+league_tier // Tier (~~ Nivel da liga)
+league_start_date_time // data inicio da liga
+league_end_date_time // data fim da liga
+series_id // ID da serie
+series_type // Tipo da Serie BO3 BO1 BO5
+match_id // ID da partida
+match_start_date_time  // Que dia e horas começou a partida
+radiant_team_name // Nome do time
+dire_team_name // Nome do time
+radiant_player_1_name // Nome
+radiant_player_2_name // Nome
+radiant_player_3_name // Nome
+radiant_player_4_name // Nome
+radiant_player_5_name // Nome
+dire_player_1_name // Nome
+dire_player_2_name // Nome
+dire_player_3_name // Nome
+dire_player_4_name // Nome
+dire_player_5_name // Nome
+radiant_player_1_id // ID do Jogador
+radiant_player_2_id // ID do Jogador
+radiant_player_3_id // ID do Jogador
+radiant_player_4_id // ID do Jogador
+radiant_player_5_id // ID do Jogador
+dire_player_1_id // ID do Jogador
+dire_player_2_id // ID do Jogador
+dire_player_3_id // ID do Jogador
+dire_player_4_id // ID do Jogador
+dire_player_5_id // ID do Jogador
+radiant_player_1_hero // Nome por extenso do herói. O ID já basta
+radiant_player_2_hero // Nome por extenso do herói. O ID já basta
+radiant_player_3_hero // Nome por extenso do herói. O ID já basta
+radiant_player_4_hero // Nome por extenso do herói. O ID já basta
+radiant_player_5_hero // Nome por extenso do herói. O ID já basta
+dire_player_1_hero // Nome por extenso do herói. O ID já basta
+dire_player_2_hero // Nome por extenso do herói. O ID já basta
+dire_player_3_hero // Nome por extenso do herói. O ID já basta
+dire_player_4_hero // Nome por extenso do herói. O ID já basta
+dire_player_5_hero // Nome por extenso do herói. O ID já basta
