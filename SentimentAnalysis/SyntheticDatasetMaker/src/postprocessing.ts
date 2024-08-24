@@ -20,8 +20,8 @@ const outputData = rawData.map((data, dataIndex) => {
 
   let trimmedHashtags = 0;
   // hashtag roussian roulette
-  for (let i = 0; i < 18; i++) {
-    if (nextRandomNumber() <= 1 / 7) {
+  for (let i = 0; i < 30; i++) {
+    if (nextRandomNumber() <= 1 / 10) {
       // strip it out
       tweet = tweet
         .trim()
@@ -30,7 +30,29 @@ const outputData = rawData.map((data, dataIndex) => {
       trimmedHashtags++;
     }
   }
-  logger.info(`#${dataIndex}: killed ${trimmedHashtags} hashtags`);
+  if (trimmedHashtags > 0)
+    logger.info(`#${dataIndex}: killed ${trimmedHashtags} hashtags`);
+
+  // some tweeters hate punctuation. 1/7 chance of removing all punctuation
+  if (nextRandomNumber() <= 1 / 30) {
+    tweet = tweet.replace(/[,]/g, "");
+    logger.info(`#${dataIndex}: commas removed`);
+  }
+
+  if (nextRandomNumber() <= 1 / 30) {
+    tweet = tweet.replace(/[\.]/g, "");
+    logger.info(`#${dataIndex}: points removed`);
+  }
+
+  if (nextRandomNumber() <= 1 / 30) {
+    tweet = tweet.replace(/[!]/g, "");
+    logger.info(`#${dataIndex}: exclamation points removed`);
+  }
+
+  if (nextRandomNumber() <= 1 / 30) {
+    tweet = tweet.replace(/['"]/g, "");
+    logger.info(`#${dataIndex}: quotes removed`);
+  }
 
   // some tweeters prefer to type in lowercase. 1/5 chance of lowercasing
   if (nextRandomNumber() <= 1 / 5) {
@@ -38,13 +60,7 @@ const outputData = rawData.map((data, dataIndex) => {
     logger.info(`#${dataIndex}: lowercased`);
   }
 
-  // some tweeters hate punctuation. 1/7 chance of removing all punctuation
-  if (nextRandomNumber() <= 1 / 7) {
-    tweet = tweet.replace(/['!\.,]/g, "");
-    logger.info(`#${dataIndex}: punctuation removed`);
-  }
-
-  return tweet;
+  return tweet.trim();
 });
 
 writeJSON("./output_processed.json", outputData);
