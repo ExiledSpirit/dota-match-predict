@@ -1,0 +1,502 @@
+[
+  {
+    "headline": "NASA\u2019s Ingenuity\u2014the First Ever Off-World Helicopter\u2014Is Set for a \u2018Wright Brothers Moment\u2019 on Mars ",
+    "content": "NASA's Perseverance rover will be carrying a four-pound helicopter in its belly. Named Ingenuity, it will attempt up to five powered flights on Mars. The first flight will replicate test flights previously conducted on Earth. After that, Ingenuity will start testing its limits, eventually flying up to 150 feet away on its final test. Each trip will last about 90 seconds from takeoff to landing, which is the maximum time available due to Ingenuity's battery capacity. Mars' atmosphere is less than 1 percent the density of Earth's atmosphere, so Ingenuity's blades have to spin 10 times faster than helicopters on Earth to create an upward lift. It will take a whole Martian day to recharge between flights.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "Huge space hotel promises fake gravity and 'supersized basketball' ",
+    "content": "Space hotels will soon become a reality, with NASA opening up the International Space Station to tourists in 2020, the opening of the Aurora Station planned for 2022, and the Gateway Foundation recently announcing the Von Braun Rotating Space Station, a space-based cruise ship which can accommodate 100 guests and three times as many crew members. The foundation aims to have the facility open by 2027. A 12-day stay on board the Aurora Station will cost $9.5 million including transportation. Prices for the Von Braun Station have not yet been determined. Seven people have paid Russia more than $20 million each to spend time on the ISS. The Von Braun Station will have artificial gravity, meaning that guests will be able to move about normally. There are safety concerns, as space debris could potentially damage spacecraft.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "Pomerium (GitHub Repo)",
+    "content": "Pomerium is an identity-aware proxy that enables secure access to internal applications. It provides an interface to add access controls. Pomerium gateways both internal and external requests, and can be used as a VPN alternative. \ud83c\udf81",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "Tech Lead Expectations for Engineering Projects (20 minute read)",
+    "content": "This document contains a guide on being an engineering lead. It describes what the role consists of and what the expectations are. The main responsibilities for an engineering lead are to set up a framework for collaboration, manage risks, communicate project status to stakeholders, help the team focus and delegate tasks, and motivate the team. A version of this project was used by a team of software engineers at Uber in Amsterdam. Users are free to request to make changes to the document.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "Who was Fahim Saleh, the tech CEO brutally dismembered in NYC? ",
+    "content": "Fahim Saleh was a tech entrepreneur who lived in New York. Described by one of his friends as 'the Elon Musk of the developing world', Saleh founded and co-founded several startups, including ride-hailing company Pathao, Nigeria-based motorcycle ridesharing company Gokada, venture capital firm Adventure Capital, and others. Saleh was murdered and dismembered in his apartment in what appeared to be a professional killing on Monday. Video footage showed his suspected murderer attacking him, leaving no blood in the apartment.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "Samsung\u2019s Galaxy A33 leaks in full before its \u2018Awesome\u2019 launch ",
+    "content": "Samsung is set to announce three devices at its Awesome Galaxy A Event this week. The Galaxy A33 will be the most affordable out of the devices at \u20ac379. It will have a 6.4-inch 90Hz 1080p OLED display, a 5,000mAh battery, and four rear cameras. The Galaxy A53 will have a bigger 6.5-inch display with a 120Hz refresh rate. Both the A33 and A53 will use Samsung\u2019s Exynos 1280 processor. There is not much information available for the Galaxy A73 except that it will have smaller bezels than the A53. Leaked renders of the A33 and A53 are available in the article.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "compatlib (GitHub Repo)",
+    "content": "compatlib makes it easy to write backward-and-forwards compatible Python libraries. It resolves the latest-usable version at runtime by comparing the overloaded methods with the interpreter version. An example is available.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "World\u2019s First Ever Space Hotel Is Now Taking Reservations ",
+    "content": "The Voyager Class Space Station is scheduled to open in 2027. It will accommodate up to 280 guests at once, entertaining them with several bars and restaurants, a cinema, a gym, and a spa. Construction will begin in 2026. Guests can already make bookings at the space hotel. A three-and-a-half-day stay will cost $5 million, including travel to get there and back. Guests will have to go through training before their stay.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "Amazon to give Prime customers one-day shipping, cutting free delivery time in half ",
+    "content": "Amazon has started to roll out free one-day delivery for some customers, and the service is expected to be available to all Prime customers soon. Two-day delivery has been available for years and is one of the main selling points for the Prime subscription. During a conference call related to Amazon\u2019s quarterly earnings report, CFO Brian Olsavsky explained that Amazon will be investing heavily to achieve this goal. Amazon expects that this project will take time and investors will have an update on their progress by the end of Q2.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "I switched to DuckDuckGo, the privacy-focused alternative to Google search that doesn't track your data \u2014 and I'm not sure it was worth it ",
+    "content": "A journalist tried out DuckDuckGo for a week. He liked that DDG had less ads, and that the quality of the search results seemed to be as good as Google. However, there's always this nagging feeling that Google is the best and he found himself double checking with Google at times even if he got good results. He missed Google's \"Top Stories\" feature that gives you little cards of top news stories, and Google's spell check. He says he wished DDG had more pages of results, and that he often visited the third or fourth page of Google's results. Overall, he liked the sense of privacy, but little things about Google made him want to go back. If you haven't tried DDG this article is probably worth taking a look at.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "Wave (GitHub Repo)",
+    "content": "Wave is a Software as a Service Starter Kit. It allows developers to rapidly build software with features such as authentication, user profiles, subscriptions, notifications, and more. A live demo is available.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "Qwik (GitHub Repo)",
+    "content": "Qwik is a framework that delivers fast load times with pure HTML and less than 1kb of JavaScript. It can be used to create complex and interactive sites. Several blog posts explaining how Qwik works are available.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "Do Octopuses Have Dreams? They Might, and Undergo Frenzied Shifts in Color ",
+    "content": "Scientists from Brazil who study how octopuses sleep say that an octopus' changes in color, behavior, and movement during sleep serve as evidence of a sleep cycle. The findings suggest that octopuses shift between active and quiet sleep. It takes about six minutes for octopuses to enter the active sleep state, which lasts from a few seconds to a minute. While it is not possible to confirm whether octopuses dream, the active sleep stage is a state analogous to REM sleep in humans.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "meli (GitHub Repo)",
+    "content": "meli is an open-source platform for deploying static sites and frontend applications. It features seamless custom domains redirection, automatic HTTPS certificate issuing, an API, webhooks, integrations, and more. A screenshot of the dashboard is available in the repository.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "Linux Mint introduces its own take on the Chromium web browser ",
+    "content": "Linux Mint now has its own version of the Chromium web browser. Maintaining Chromium was a significant time investment for the Ubuntu Desktop Team, so they switched to using Snap to distribute Chromium. This resulted in security issues that Mint developers felt they needed to fix. In June, Mint cut Snap and the Snap-based Chromium from their distro. Up-to-date builds of Chromium are finally now available for Mint users. There was a delay as Mint needed to automate the process of detecting, packaging, and compiling new versions of the browser.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "Go read this story of tech workers who secretly work multiple remote jobs ",
+    "content": "Some tech workers have started to earn two full-time paychecks while working remotely, without letting either employer know about the other. The workers have to balance the two jobs, sometimes using paid time off to juggle the occasional big project. Many do not work more than 40 hours a week at both jobs combined. The workers are unapologetic, as they are taking advantage of a system that they feel has taken advantage of them.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "NASA and SpaceX are Developing Tech to Refuel Spacecraft While in Orbit ",
+    "content": "NASA's Artemis program is a collaboration between NASA and 13 private US companies with the aim of taking humans back to the Moon by 2024. SpaceX will be part of the Artemis program, developing technologies that will help spacecraft refuel while in orbit. Pulling away from Earth's gravity is typically where most fuel is used, so being able to refuel a spacecraft while in space would greatly improve the efficiency and range of space travel.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "The Boring Company tests its \u2018Teslas in Tunnels\u2019 system in Las Vegas ",
+    "content": "The Boring Company started tests on its Las Vegas Convention Center (LVCC) tunnels this week. There are three stops in the LVCC system, two above ground and one in the middle of the tunnels. The system uses Tesla vehicles to transport passengers. Passengers use an app to summon cars for rides. The loop turns a 45-minute walk into a two-minute ride. There was some confusion with customers during the tests. Scaling the current system might be an issue for the company, which wants to eventually build a massive tunnel system throughout the whole city. Footage from some of the test rides is available in the article.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "Atari is opening eight video game hotels across the U.S. ",
+    "content": "Atari is in talks to build a series of gaming hotels across the country. The first hotel is set to open in mid-2020. Last year, the games industry pulled in more than $152 billion. A hotel with this focus could be a huge draw for gamers and families. Atari promises state-of-the-art venues and studios where esports and other gaming competitions can take place. There will also be virtual and augmented reality gaming options. The hotels will also have restaurants, movie theaters, gyms, and spaces for business work. Atari did not mention whether classic Atari games will be playable at the hotels.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "mailgo (GitHub Repo)",
+    "content": "mailgo is a JavaScript package that transforms mailto and tel links into a menu that allows users to open the links directly in an app. A GIF demo is available.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "Finnish PM calls for a 4-day-week and 6-hour-day ",
+    "content": "Sanna Marin is Finland's new prime minister and the youngest female head of government worldwide at 34. The Finnish government is a coalition of five parties, all with female leaders. Marin is calling for shorter work hours, saying that the Finns should have to work for only four days a week, for six hours per day. A five day a week, eight hour per day schedule is currently normal in Finland. A city in Sweden reduced working time to six hours a day in old people's homes and at the municipal hospital in 2015, and it resulted in happier, healthier, and more productive employees. Six-hour workdays are normal in Sweden's tech industry, where the schedule has proven to increase productivity, efficiency, and as a result, profitability.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "The Rise of the Robot Reporter ",
+    "content": "Artificial intelligence is being used to generate content for news websites. The technology, which was first used in financial reporting, is being used to quickly generate articles which can then be edited and published by human reporters. The tool allows journalists to focus on more substantive work rather than having to worry about reporting on statistics and numbers. AI may also help journalists by identifying patterns and anomalies in data for further investigation.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "How We Built Hydrogen: A React Framework for Building Custom Storefronts (12 minute read)",
+    "content": "Hydrogen is a React framework for building custom storefronts on Shopify. It was built with the best developer experience in mind so that merchants could do away with bulky templates or building things from scratch. This article takes a behind-the-scenes look at how Shopify created Hydrogen and what it was like developing a new framework using experimental technology.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "SVG Repo (Website)",
+    "content": "This site contains over 300,000 SVG vectors and icons. An ML-powered search is available. Most icons and vectors can be used for commercial projects without any royalties.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "Facebook launches CatchUp, an audio-only calling app that shows who\u2019s ready to chat now ",
+    "content": "CatchUp is a new app from Facebook that makes it easy for friends and family in the US to coordinate phone calls or set up group calls with up to eight people. The app is audio-only and it flags when users are available. Users won't need a Facebook account for the app to work as it works with the device's contacts list. One of the main reasons people no longer make phone calls is that they don't know when someone is free and they don't want to interrupt them. CatchUp solves this issue by allowing users to broadcast their availability to their contacts list.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "Meta is opening its first retail store next month ",
+    "content": "Meta is opening its first hardware retail store on its campus at Burlingame, California on May 9. The store will have areas for visitors to demo Portal devices, Quest virtual reality headsets, and Ray-Ban Stories smart glasses. It will open from 11 AM to 6 PM Monday through Friday. The store will allow Meta to experiment with its in-store customer experience and help define its future retail strategy.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "Iced (GitHub Repo)",
+    "content": "Iced is a cross-platform GUI library for Rust that is focused on simplicity and type-safety. It features a simple API, a responsive layout, built-in widgets, a modular ecosystem, and more. Ice was inspired by the Elm Architecture and it is still an experimental software. Due to the speed of development, the master branch can contain breaking changes.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "Japan's AI-Powered Port Stops Ships Colliding Better Than Humans ",
+    "content": "Fujitsu and the Japan Coast Guard used AI to prevent collisions between cargo ships in the Tokyo Bay area during a trial carried out between December 2019 and March 2020. The Zinrai AI system predicted areas of high risk and fed information to port control authorities, who were then better able to manage ship movement. Using the system, port operators were able to identify possible collisions a full two minutes earlier than when using conventional port management systems.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "Watch: Drone crashes into erupting Icelandic volcano (1 minute video)",
+    "content": "A YouTuber trying to film a close-up of the Fagradalsfjall volcano lost their drone when it crashed into a lava spew. The volcano has been erupting since March. It has become a tourist attraction. The video shows the moment when the drone crashes into the lava.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "Pfizer\u2019s announcement shows the promise of gene-based vaccines ",
+    "content": "The announcement from Pfizer and BioNTech this week regarding their vaccine is good news for other coronavirus vaccines based on the same genetic technology. Pfizer and BioNTech's vaccine is a gene-based vaccine, based on mRNA that contains instructions for our cells to carry out. Gene-based vaccines are relatively simple to develop and manufacture. However, the FDA has never approved its use in humans. The data from the studies still needs to be reviewed and the vaccine has still not yet been approved, but in theory, they should be very effective.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "This video shows the most popular programming languages on Stack Overflow since September 2008 (1:27 Video)",
+    "content": "This video shows the percentage of Stack Overflow questions for each programming language for every month since September 2008. C# was the leading language until 2012, when Java, JavaScript, and PHP started becoming more popular. JavaScript dominated until 2018, after which Python overtook it. Python is currently the most popular language.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "After months-long 'pause', shortlived Google Allo messaging app will soon be sunset for good ",
+    "content": "Google is shutting down their Google Allo chat app \"soon\", 8 months after the company said they were \"pausing investment\" in the app. The Google Allo project lead left for Facebook in January. Essentially the entire team has been moved to work on Android Messages. Google Hangouts \"classic\", the version that's in your Gmail, is getting shut down as well and all users will be migrated to Hangouts Meet, Google's enterprised focused Slack-like chat. It will open to consumers sometime in 2019. The long-term plan seems to make Android Messages the future of Google consumer chat.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "tsParticles (GitHub Repo)",
+    "content": "tsParticles is a lightweight TypeScript library for creating particles. It is almost completely dependency-free (it requires pathseg for the Polygon Mask feature and Icon Fonts must be included in the page). It is fully compatible with the particles.js configuration - you only need to change the script source to convert it to tsParticles. tsParticles supports custom shapes and presets.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "Equifax was hacked by Chinese military officers, federal prosecutors say ",
+    "content": "The Department of Justice has announced the indictment of four members of China's military over the 2017 hack of Equifax. Using a vulnerability in the framework used by Equifax, the hackers obtained sensitive information such as names, social security numbers, birthdates, addresses, driver's license numbers, and sometimes even credit card numbers. Around 150 million Americans were affected by the attack. This is the second time the DOJ has indicted members of China's People's Liberation Army in an economic espionage case. There is no evidence that the stolen data has been used. People in the US are getting used to hearing about data breaches and should be more careful about managing the data that they give to companies.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "MuZero\u2019s first step from research into the real world ",
+    "content": "MuZero is one of the successors of AlphaGo, the first artificial intelligence program to defeat humans in the game of Go. It was created to be a general-purpose algorithm and it has mastered several games without needing to be told the rules. DeepMind scientists collaborated with YouTube to explore MuZero's potential to improve video compression. The study found that MuZero was able to demonstrate an average of 4% bitrate reduction without quality degradation across a large and diverse set of videos.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "Microsoft thinks coronavirus will forever change the way we work and learn ",
+    "content": "Microsoft has released data on how people are using its Teams app. Video call usage went up by more than 1,000 percent in March. Microsoft engineers are challenged with the task of making sure that Teams' infrastructure has enough capacity for this increase in usage. New features have been prioritized, and Microsoft is working on increasing the number of participants allowed per meeting. Despite coronavirus restrictions lifting in China, Microsoft reports retaining many of its new customers, with a growing number of daily active users still. This indicates that we might start seeing a cultural change in the way we work, and working from home might become normal for many. Give feedback by replying here or messaging me on Twitter @tldrdan! If you don't want to receive future editions of TLDR, please click here.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "South Korean researchers create chameleon-like artificial \"skin\" ",
+    "content": "South Korean researchers have developed an artificial skin-like material that can quickly adjust its hues like a chameleon to match its surroundings. The skin is made with a special ink that changes color based on temperature. It is controlled by stacked multilayer silver nanowire heaters. The researchers used a robot with color-detecting sensors to demonstrate how the technology can be used for camouflage. The skin is thinner than human hair and has the potential to be further developed into wearable devices, clothing, and displays.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "\u201cExpert\u201d hackers used 11 0-days to infect Windows, iOS, and Android users ",
+    "content": "Google researchers have discovered a team of advanced hackers who have exploited at least 11 0-day vulnerabilities over nine months. The hackers used compromised websites to infect fully patched devices running Windows, iOS, and Android. Google security researchers described the group as 'highly sophisticated'. While people should still keep their software updated and avoid suspicious websites, neither of those things would have helped the victims hacked by this group.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "TikTok parent ByteDance is reportedly making a smartphone ",
+    "content": "ByteDance, the company that created the video app TikTok, is planning to create its own smartphone. The smartphone will be preloaded with ByteDance's own apps, such as TikTok, Jinri Toutiao, and a new unreleased music streaming service. A deal between ByteDance and smartphone maker Smartisan has been confirmed. Other companies, such as Facebook and Amazon, have attempted unsuccessfully to launch their own smartphones that were preloaded with their own apps.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "Better Dev Link (Newsletter)",
+    "content": "Better Dev Link is a newsletter with weekly links to help you become a better developer. Topics are well curated, and appropriate for advanced developers.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "I made an AI-powered Linux shell using OpenAI (5 minute video)",
+    "content": "This video shows off an AI-powered Linux shell that uses OpenAI to interpret language and run commands. It can run complex commands, so the user doesn't have to waste time looking up how to do things. The shell can understand natural language queries, such as 'List files from biggest to smallest'. Due to OpenAI's restrictions, the software isn't public.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "This Plant Lurks Underground to Trap Prey in a Way We've Never Seen Before ",
+    "content": "A newly discovered species of carnivorous plant grows its pitchers underground to target bugs that dwell inside the dirt.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "Scientists Used Over 100,000 MRIs to Map The Human Brain Across Our Entire Lifetime ",
+    "content": "Researchers have created a database that contains 123,984 magnetic resonance imaging scans taken from 101,457 individuals. The scans were collected from over 100 previous studies and cover every stage of life. They reveal new milestones and confirm developments that have only been previously hypothesized about. The database is designed so that new data can be easily added. A link to the database is available in the article.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "Wuhan\u2019s 11 Million People Face Quarantine as Virus Fears Spread ",
+    "content": "Wuhan, China's seventh-largest city, with approximately 11 million people, will be under a partial quarantine starting on Thursday. All transport from the city has been canceled due to the coronavirus that originated from the city. 17 people have been killed by the virus so far, which was first reported on December 31. The World Health Organization is convening on an emergency meeting regarding the coronavirus. Cases of coronaviruses infecting humans are more common in China due to close contact with domestic animals and the consumption of wild animals. The SARS epidemic in 2003 killed over 800 people. Information being released by the Chinese government regarding the virus is questionable. Mass migrations due to the Lunar New Year is a major concern as it is a perfect recipe for a worldwide epidemic.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "Huawei partners with TomTom for Google Maps alternative ",
+    "content": "Huawei is unable to use anything made by Google on its phones due to a US ban on the Chinese tech company. TomTom and Huawei have struck a deal to build a Google Maps rival called Map Kit, which will support real-time traffic reports and augmented reality features. Huawei was able to skirt the US government's trade ban as TomTom is a Netherlands-based company. Its phones are still powered by Android, but they lack Google's apps and services, including the Play Store. This has impacted Huawei's ability to sell its phones outside of Asia. It has been looking for software alternatives just in case it is forced to ditched Android entirely.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "MangoDB (GitHub Repo)",
+    "content": "MangoDB is a proxy that converts MongoDB wire protocol queries to SQL and uses PostgreSQL as a database engine. It is an open-source alternative to MongoDB as MongoDB has changed its license to make it unusable for many open source and commercial projects. MangoDB will be compatible with MongoDB drivers and will work as a drop-in replacement for MongoDB in many cases. It is still in a very early stage of development.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "Google and India\u2019s Jio Platforms announce budget Android smartphone JioPhone Next ",
+    "content": "The JioPhone Next is a new affordable Android smartphone from one of India's telecom providers and Google. Jio Platforms received $20 billion in funding from Google, Facebook, and others last year to work on the low-cost smartphone. It is aimed at the roughly 300 million users in India who are still on 2G devices. The phone will launch in September. It will eventually be released outside of the country. A picture of the phone is available in the article.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "Europe to mine moon for Oxygen and Water by 2025 ",
+    "content": "The European Space Agency has signed a one-year contract to study and prepare for a mission to go to the moon to mine regolith. Regolith is an ore that you can extract water and oxygen from, so mining it would be a key component of building a permanent moon colony.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "Amazon starts making its own TVs with new Fire TV Omni and 4-Series ",
+    "content": "Amazon has announced its Omni and 4-Series Amazon-branded 4K Fire TVs. The Omni series is a higher-end option with better picture quality and Alexa hands-free voice control. Voice commands will always be available, even when the TV is off. The commands can be used to adjust the TV's brightness, volume, to find something to watch, and more. The Omni also has a picture-in-picture mode for checking smart home cameras. Both the Omni and 4-Series can be wirelessly linked to Echo speakers. Pricing for a range of display sizes is available in the article.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "Would you be interested in a crypto version of TLDR?I'm seeing a ton of interesting crypto stories like the SOS airdrop and this Avalanche development tutorial but I don't want the whole newsletter to be flooded with crypto content, so if you'd be interested in a separate smaller version of TLDR that is only crypto tech and programming news, could you please fill out the above form so I can see if this is something worth creating? Thanks!\n)",
+    "content": "I'm seeing a ton of interesting crypto stories like the SOS airdrop and this Avalanche development tutorial but I don't want the whole newsletter to be flooded with crypto content, so if you'd be interested in a separate smaller version of TLDR that is only crypto tech and programming news, could you please fill out the above form so I can see if this is something worth creating? Thanks!",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "secrets (GitHub Repo)",
+    "content": "secrets is a command-line tool that can help prevent developers from committing secret keys into source code. It scans for secret keys locally before the commit. secrets is fast and has a low rate of false positives.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "Snapchat becomes the mobile HBO with 12 daily scripted Original shows ",
+    "content": "Snapchat is producing a dozen TV shows with top producers like the people who produce Keeping Up With the Kardashians and Friday Night Lights. The Discover tab will soon have a special section called \"shows\". The shows will be monetized with a few 6-second unskippable ads in each show. Snap believes that the original content could help them differentiate from Instagram and Facebook. The article contains a list of names and descriptions of the original shows.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "As Facebook Raised a Privacy Wall, It Carved an Opening for Tech Giants (10 minute read)",
+    "content": "The New York Times has released another Facebook privacy scandal. They've been sharing tons of data with other tech giants. They allowed Spotify, Netflix and the Royal Bank of Canada to read, write and delete users' private messages. They let Apple hide all indicators that its devices were asking for data. Even Russian search engine Yandex had special access to Facebook's unique user IDs after Facebook stopped sharing them publicly, citing privacy risks. All of these special partnerships were in effect as of 2017 according to documents the NYT got. Facebook claims that it did not violate the FTC rules requiring them to secure users' consent before sharing data because Facebook considered the partners to be extensions of itself.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "How a Half-Dozen Raspberry Pis Help Keep This Maine Oyster Farm Afloat ",
+    "content": "Running Tide Technologies is an oyster farm that grows kelp. It employs 30 people including software developers, instrumentation engineers, fabricators, and a data scientist. The system that Running Tide users receives feedback from the oysters and adjusts water conditions accordingly. It uses six Raspberry Pis that feed data to the cloud. The sensors will hopefully be able to enable Running Tide to forecast harmful algae blooms and detect a change in acidity levels. Kelp can store up to 20 times more carbon per acre than forests, so part of Running Tide's operations involves using its kelp farm to remove carbon from the atmosphere.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "Almond.CSS (GitHub Repo)",
+    "content": "Almond.CSS is a collection of class-less CSS styles to make simple websites look better. The project uses only tags, and its themes and styles are easily customizable. Developers can combine HTML and Almond.CSS without JavaScript. A demo is available.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "Uber will now deliver pumpkins, carving kits, and other seasonal items to your door ",
+    "content": "Uber Eats will roll out a feature starting October 1 that will allow people in Los Angeles, San Diego, and West Palm Beach to order seasonal items, starting with Halloween-themed items. After Halloween, the service will offer delivery for Christmas items, and then rotate seasonally. The holiday shop can be accessed by entering a ghost or pumpkin emoji in the search bar on the Uber Eats app. Uber Pass and Eats Pass holders will have their delivery fees waived on eligible orders over $15.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "Github Jira Integration (Github App)",
+    "content": "Github just announced a first party integration with Jira, which should be nifty for people who use both services. I know there are a lot of people who have hacked together solutions to do this, hopefully this integration will solve that pain point.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "Google News may shut over EU plans to charge tax for links ",
+    "content": "The EU has proposed a \"link tax\" that would charge search engines and link aggregators that use snippets to provide context for an article. Richard Gingras, VP of Google News, says that while \"it's not desirable to shut down services\", Google wouldn't rule out shutting down Google News in Europe, pointing out that when Spain tried to charge Google for links in 2014, the company responded by shutting down Google News in Spain, causing an immediate fall in traffic for Spanish news sites. He emphasized that Google News does not monetize, saying \"There's no advertising in Google News. It is not a revenue-generating product to Google. We think it's valuable as a service to society. We are proud to have it as part of the stable of properties that people have.\"",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "What's it like as a Senior Engineer? ",
+    "content": "Problems become more ambiguous as you get more experienced. As a senior engineer, most of your work goes into research rather than programming, and this includes talking to many people until you get the information you need. It can take some digging to get to clients' real needs. Solutions can sometimes have downsides and you will need to learn how to balance the tradeoffs. Skills like risk management, learning to fail, and receiving feedback become important for development. Working at a higher level involves getting people to agree with you. It all comes down to learning from your experiences, so you need to take opportunities as they show up and look for feedback at the end of projects.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "IBM and Samsung say their new chip design could lead to week-long battery life on phones ",
+    "content": "IBM and Samsung have discovered a way to stack transistors vertically on a chip, allowing for electric currents to flow up and down the stack of transistors instead of side-to-side as with current chips. As chip designers run out of ways to add more chips in one place, it only makes sense to start stacking them upwards. The new Vertical Transport Field Effect Transistors design could result in cell phones with batteries that could go for over a week without being charged. It could also mean less energy-intensive cryptocurrency mining and more powerful IoT devices.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "Clubhouse comes to Android after more than a year of iOS exclusivity ",
+    "content": "Clubhouse is releasing its Android app in beta in the US after more than a year of exclusivity on iOS. It will collect feedback from the community over the next few weeks before rolling the app out more broadly. Users outside of the US will be able to pre-register for access in the Google Play Store. Clubhouse will remain invite-only for now. The company has limited access to control its growth, but the platform has still grown faster than expected.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "Vitalik Buterin proposes calldata limit per block to lower ETH gas costs ",
+    "content": "Vitalik Buterin has proposed a new limit on the total transaction calldata in a block to decrease the overall gas cost over the Ethereum network. Decreasing the calldata gas cost could create a security risk, but Buterin's proposal aims to balance that risk. If accepted, the network will require a scheduled network upgrade and miners will need to comply with the new rules. The community is discussing other options to combat the rise of gas fees. The increase in fees has resulted in users switching to lower-cost Ethereum Virtual-Machine compatible networks.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "How we built a $1m ARR SaaS startup (16 minute read)",
+    "content": "Canny is a SaaS startup that launched in 2017, taking just under 3.5 years to get to $1 million annual recurring revenue (ARR). It was bootstrapped, taking no money from investors, and all of its growth came from inbound channels. The team employed 7 people when it hit $1 million ARR, with members distributed all over the world. This article follows the startup's development. It divides the journey into stages by ARR, and details what the startup did for each stage and the lessons learned.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "Tinder created an interactive show. Gen Z loves it ",
+    "content": "Swipe Night is a new four-part video series that was released by Tinder this month. An episode aired every Sunday during October in the US and was only available for 6 hours. During each episode, users were able to make choices by swiping left or right. These choices affected the rest of the story. Users were matched with other users depending on the choices they made. Matches on Tinder jumped 26 percent as a result, and messages increased by 12 percent. Tinder is planning an international rollout of the series in February 2020. The plot of the story centers around an apocalyptic scenario where a comet is set to destroy Earth in three hours.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "Google Search Is Dying ",
+    "content": "Google search results are dying as most of the web has become too inauthentic to trust. Most people now use Google to search through Reddit posts for answers. Serving ads creates misaligned incentives for search engines, SEO has resulted in poor quality sites surfacing to the top of search results, and AI now tries to figure out what the user wants rather than through only search terms. Reddit results are more authentic as people discuss what they think without the commercial aspect other websites have.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "Advice for Tech Workers to Navigate the Most Heated Job Market of All Time (11 minute read)",
+    "content": "The job market is on fire across the globe, with demand for employees outstripping supply. While the root causes of the heated hiring market are longer-term forces, the easing of lockdowns means it may cool down by early 2022. This article contains advice for tech workers, both junior and more experienced, on how to make the most out of this heated market while it lasts.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "Norled Picks Westcon to Build World\u2019s 1st Hydrogen Ferry ",
+    "content": "Norled, a Norwegian ferry company has signed a contract with shipyard Westcon to build two new environmentally-friendly ferries. One ferry will be the world\u2019s first hydrogen-fueled ferry and the other will be a battery-operated ship. The ships will be operational in 2021 and will each carry up to 299 passengers and 80 cars. Hydrogen is a zero-emission fuel that is suited to supplying large amounts of energy to ferry propulsion systems, increasing sailing distance and speed on boats. A second hydrogen-powered vessel will soon operate in France as part of the EU\u2019s Flagships project.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "Google foils Roku\u2019s YouTube TV ban, adds service to the main YouTube app ",
+    "content": "Roku recently removed the YouTube TV app from its store due to a disagreement with its contract with Google. As a response, Google has embedded the YouTube TV app into the YouTube app. The contract between Google and Roku for the YouTube app does not expire until December. Google has threatened to provide free streaming devices for their YouTube TV customers if Roku refuses to renew its deal under reasonable terms. The dispute is likely due to Google's AV1 video codec, which will require Roku to upgrade to more expensive chips.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "Google-Free Android Smartphones Are Now Available in the US ",
+    "content": "The /e/ Foundation is now offering Google-free Android handsets in the US. The Foundation has been offering refurbished smartphones without Google software in Europe since 2019. It is starting in the US with the Samsung Galaxy S9 for $380 and the Galaxy S9+ for $430. The phones are carrier unlocked and will be backed with a one-year warranty. They will run a version of Android called /e/ OS, which has removed most of the code that sends data to remote servers without user consent.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "Automagica (GitHub Repo)",
+    "content": "Automagica is an open-source Smart Robotic Process Automation platform. Users can write cross-platform automation scripts using Python. Officially, only Windows is supported. Using Automagica, users can automate browsing/scraping, SAP, folder and file manipulation, and more. Natural Language scripts are supported.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "Introducing Android Q Beta (10 minute read)",
+    "content": "The Beta 1 of Android Q has been released, bringing additional privacy and security features for users, enhancements for foldables, new APIs for connectivity, new media codecs and camera capabilities, Neural Network API extensions, Vulkan 1.1 support, faster app startup, and more. An SDK has been released for developers to test their apps on the new OS so developers can start to take advantage of the new features and APIs. Pixel 1, 2, and 3 owners can download and install the beta immediately after enrolling into the beta program, and developers with other Android devices can use the new Android Emulator to test their apps.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "Google has enlisted NASA to help it prove quantum supremacy within months ",
+    "content": "Quantum supremacy is the idea that a sufficiently powerful quantum computer will be able to perform certain calculations that current supercomputers can't. Proving it could eventually lead to breaking currently unbreakable codes, enhancing AI, improving weather forecasts, and modeling complex molecular interactions. Google's quantum computing head, physicist John Martinis, believes that Google's new 72-qubit quantum chip Bristlecone will be capable of achieving quantum supremacy. Google is partnering with NASA to test this out, pitting Bristlecone against NASA's most powerful supercomputer Pleiades. Google and NASA signed a five year partnership in July that will give NASA access to Google's quantum computing resources over the next five years in exchange for helping test and improve Google's quantum computers, and running comparisons against traditional supercomputers.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "Apple's Tim Cook makes blistering attack on the 'data industrial complex' ",
+    "content": "Without naming any names, Tim Cook warned that our personal data has been \"weaponized against us with military efficiency\" by the \"data-industrial complex\". He explicitly called for federal regulation, saying that Apple would fully support \"comprehensive, federal privacy law.\" He argues for a four pronged approach: data minimization (companies should de-personalize or simply not collect personal data wherever possible), transparency (users should know what is being collected), right to access (users should always be able to get a copy of what data a company has on them), and right to security. Cook also addressed the tension between respecting privacy and getting the data needed to improve AI, saying \"For artificial intelligence to be truly smart it must respect human values \u2014 including privacy. If we get this wrong, the dangers are profound. We can achieve both great artificial intelligence and great privacy standards. It is not only a possibility \u2014 it is a responsibility.\"",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "A New Brain Implant Automatically Detects and Kills Pain in Real Time ",
+    "content": "A group from the New York University School of Medicine has developed a brain-machine interface (BMI) that connects two brain regions together to detect and kill pain in real-time. One part of the BMI is connected to a region of the brain that detects pain, and another part dampens pain when activated. The implant only works when there is pain, so it doesn't constantly stimulate the brain. It has so far only been tested on rats, but it seems to be an effective strategy for pain therapy. While it may seem to be overkill, it could be a preferable choice to drugs for chronic pain sufferers.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "Cuttlefish can pass the marshmallow test ",
+    "content": "Cuttlefish are able to delay gratification. Scientists found that the cephalopods could wait a bit for preferred prey rather than settling for a less desirable prey. Other animals, such as apes and corvids, have also demonstrated the ability to delay gratification through future-oriented foraging. The Stanford marshmallow test was a study where 600 children between the ages of four and six were given a choice to eat a marshmallow immediately or wait 15 minutes for a second marshmallow. The study found a correlation between those who had demonstrated self-control and success later in life. Later studies found that the correlation was much less significant when factoring in aspects like family background and home environment.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "Hacker Roadmap (GitHub Repo)",
+    "content": "This repository contains a guide on becoming a pen tester from scratch. It goes through the basic concepts of information security, discusses the basic steps and tools of pen testing, and also links additional resources for further information. Students are encouraged to practice their skills on challenges, rather than real targets, and to use the information responsibly.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "Kickstarter CEO: Let's try a 4-day work week ",
+    "content": "Kickstarter plans to experiment with a four-day workweek to offer workers more flexibility and time. CEO Aziz Hasan was motivated to try out the arrangement due to the effects of the pandemic on the workplace. He noticed that other companies were also experimenting with alternative work arrangements. Kickstarter's newly formed union is supportive of the idea.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "WhatsApp now lets you post ephemeral messages that disappear after 7 days ",
+    "content": "WhatsApp users can now mark messages to disappear after seven days. The seven-day limit exists regardless of whether the message is read or not as the timer begins when the message is sent. Only group admins will be able to turn on the feature in group chats. Disappearing messages have become more popular in apps in recent years. Users can send disappearing messages on Instagram and Messenger.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "Jovo (GitHub Repo)",
+    "content": "Jovo is a cross-platform framework for building conversational and multimodal experiences on the web, Alexa, Google Assistant, Messenger, Instagram, Google Business Messages, mobile apps, and more. It is component-based and extensions are available through a marketplace. Jovo works with many NLU and CMS services.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "China is building a floating train that could be faster than air travel ",
+    "content": "China has revealed a prototype of a new magnetic levitation train that can reach speeds up to 600 km/hr. The country already has the fastest commercial maglev service, which runs between Shanghai\u2019s Pudong airport and the city center at a maximum speed of 431 km/hr. A maglev service between Beijing and Shanghai travels at around 350 km/hr over the 1300 kilometer distance. The journey takes around four and a half hours by plane, but the new maglev trains may be able to complete the journey in only three and a half hours. Japan is currently building a maglev line between Tokyo and Nagoya, scheduled to be open in 2027.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "Memray (GitHub Repo)",
+    "content": "Memray is a memory profiler for Python. It can help developers discover the cause of high memory usage, find memory leaks, and find hotspots in code that cause a lot of allocations. Memray can be used both as a command-line tool or as a library.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "FBI hires 140 robots to retrieve sensitive information ",
+    "content": "The FBI has collected billions of pages of files over its existence. When designing a new facility to house about 2 billion pages in 360,000 bins, the FBI decided that manually retrieving data from the records was almost impossible due to the size of the collection. After exploring various solutions, the FBI chose to employ 140 robots to automatically file and retrieve records. The robots will streamline the data retrieval process and also optimize storage space by eliminating aisles for human access. Their software only tracks record and bin numbers, which means that they won\u2019t have direct access to the records themselves.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "For the first time, scientists find X-rays coming from Uranus ",
+    "content": "Scientists discovered X-rays emitting from Uranus after analyzing two visuals of the planet taken by NASA's Chandra X-ray Observatory in 2002 and 2017. Most of the X-rays come from the sun, but there are hints of at least one other source present. Figuring out the source could reveal insights into how other objects in space emit X-rays, including black holes and neutron stars. Uranus is particularly interesting to scientists because of its side rotation and magnetic field.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "Microsoft to launch xCloud streaming free with Xbox Game Pass Ultimate in September ",
+    "content": "Microsoft will launch xCloud free to its Xbox Game Pass Ultimate subscribers in September. xCloud lets Xbox players play games on mobile devices, even allowing users to transfer sessions from console over to mobile. Subscribers will receive Xbox Live access, an Xbox Game Pass subscription, and xCloud game streaming for a single $14.99 monthly subscription. Over 100 Xbox Game Pass titles will be playable on xCloud on launch.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "Carbonated Ice Cream Is a Feat of Physics\u2014and It Actually Tastes Good ",
+    "content": "Ice cream manufacturers often have to race against time to put their products on shelves, an expensive task that produces massive amounts of greenhouse gas emissions. A pair of researchers at Cornell University have created a system that uses pressurized carbon dioxide to create instant ice cream. When fluids expand from high pressure to low pressure, it can cause a cooling effect under the right conditions. The scientist's ice cream machine uses this principle with pressurized carbon dioxide to produce a scoop of ice cream every three seconds. With the machine, shop owners can potentially keep shelf-stable mixtures on hand and produce ice cream as required. The system can also be potentially used to create instant soda slushies.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "How Node.js Works: A Look Behind The Scenes ",
+    "content": "Node.js provides a layer of abstraction that allows developers to write 100% pure JavaScript code and still access functions that are implemented in other libraries in the C++ language. This article explains how Node.js works, looking at its architecture and dependencies and how code is executed in the system.",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "Researchers create neurons that can be integrated into human brain tissue ",
+    "content": "Scientists have successfully generated human neurons from skin cells using cellular reprogramming technology. Using a combination of cutting-edge technologies, the researchers demonstrated that grafted cells were able to receive inputs and establish synaptic contacts with the already established neuronal network in a slice of brain cortex. As the cells used for treatment are harvested from the patient, there is no risk of graft rejection and also no ethical concerns regarding the source of the cells.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "Next Web Browser (Github Repo)",
+    "content": "Next is an open source Lisp-based keyboard-oriented extensible web-browser designed for power users. The goal is to enable power users to be more productive by allowing fast tab switching and fast navigation without having to use a mouse. I can see how this could get big, a web browser is probably most people's most used application so it makes sense to invest some time in getting fast with it (like how people invest time learning text editors like vim/emacs). It's still pretty early stage and is missing some key stuff like adblock, but it's definitely something to keep an eye on (and a cool project for Lisp fans!).",
+    "category": "Programming, Design & Data Science"
+  },
+  {
+    "headline": "Elon Musk delivers New Year\u2019s Teslas with help from his proud mom ",
+    "content": "Elon Musk and his mother, Maye, helped volunteers from the local Tesla Owners club deliver cars to hundreds of customers on New Year\u2019s Eve. A $1,875 US federal tax credit for customers was to expire at the end of 2019, so Tesla tried to ship the cars to customers as soon as possible so they could take advantage of the credit. Tesla was giving out $10 vouchers for the food trucks on-site and was also offering drinks.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "Hungry? - Lunch on us during the DX Summit virtual conference (Sponsor)",
+    "content": "Hungry? - Lunch on us during the DX Summit virtual conference . As a TLDR subscriber, you're invited to the most influential technology and marketing event of the year! Register for free today and master new skills and network with the world\u2019s most successful digital experience leaders. Join us on May 18 at 11am ET for our great lineup of speakers - including leaders from Google, HP, and Ribo AI as we discuss NextGen Customer Service Excellence through data and journey orchestration.Register today for this digital CX conference to receive a free Uber Eats voucher to use toward lunch delivery of your choice.",
+    "category": "Sponsor"
+  },
+  {
+    "headline": "Los Angeles Uber drivers join cities across the U.S. in strike ahead of much-anticipated IPO ",
+    "content": "Uber, who is about to launch one of the tech world's most anticipated Initial Public Offerings, faced a protest from their drivers just days before the sale. Drivers across 10 cities in the US, as well as in some European locations such as London, protested against unfair pay and a lack of transparency. Passengers did not seem to notice much difference during the protest as they were still able to hail rides without much difficulty, but the goal of the protest was so legislators would take notice. A change in legislation may affect the company's value and sale price, which the protestors are trying to use as leverage against the company.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "New type of 3D printing uses sound waves to build up objects ",
+    "content": "Direct sound printing (DSP) is a new 3D printing technology developed by scientists at Canada's Concordia University. It involves sending focused pulses of ultrasound through a chamber into a liquid resin contained within. The sound causes rapidly oscillating microscopic bubbles to form at specific points in the resin, causing the resin to solidify at the exact location of the bubble. DSP is able to produce small, detailed items within structures that have opaque surfaces. It could potentially be used to 3D-print repairs into internal components or create implants inside a human body without surgery.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "Brain implants, AI, and a speech synthesizer have turned brain activity into robot words ",
+    "content": "A team of scientists has used neural networks to synthesize speech from brain activity. Patients who had special implants to monitor epilepsy listened to words as artificial neural networks monitored their brain activity. The network was able to synthesize understandable words from just the brain activity 75% of the time. This research may soon allow paralyzed people to communicate.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "Ninja announces he is leaving Twitch to stream exclusively on Mixer ",
+    "content": "One of Twitch's most popular stars, Tyler 'Ninja' Blevins, is leaving the platform to stream exclusively on Mixer. Mixer is a streaming service owned by Microsoft and was previously known as Beam. Ninja will continue to stream Fortnite and says that his streams will be the same on the new platform. Twitch has congratulated Ninja on his accomplishments in the gaming community. Fortnite has recently held its inaugural World Cup Finals in New York City, where Ninja was both a competitor and a commentator. Ninja has also appeared on the cover of ESPN and on The Ellen DeGeneres Show. He will be appearing at Lollapalooza in Chicago this week.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "A rogue killer drone 'hunted down' a human target without being instructed to, UN report says ",
+    "content": "In March last year, a KARGU-2 quadcopter targeted and killed a soldier without instructions to do so. The drone was operating in an autonomous mode, hunting down the target as they tried to retreat. It is likely the first time drones have attacked humans without being directed to. The incident raises concerns about the future of autonomous drones. Scientists and human rights groups have called for restrictions on the technology.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "The 5 biggest announcements from Apple\u2019s March event ",
+    "content": "Apple has announced its new suite of subscription services, with a focus on an advertisement-free experience and user privacy. All data regarding a customer\u2019s viewing history will remain on the user's device and not shared with Apple or advertisers. Apple News Plus will open up a range of magazines and news subscriptions for $9.99, including family sharing, and is available now. The Apple Arcade gaming subscription service will let subscribers play a range of games across all of Apple's devices and will be available later this year at a yet to be disclosed price. Apple TV users will be able to subscribe to their preferred channels directly through Apple TV Channels, and Apple plans to bring original content to their devices through Apple TV Plus, however, there are not many details about this service besides a list of celebrities having signed on to create content for the platform. Finally, Apple has released a credit card with cash back benefits that will be stored in Apple Wallet, with the option of users obtaining a physical card if required. A seven minute video is available with the main highlights of Apple's keynote.",
+    "category": "Big Tech & Startups"
+  },
+  {
+    "headline": "Space balloon company offers first look at luxury cabins ",
+    "content": "Space Perspective plans to lift luxury cabins into the upper atmosphere with giant balloons by the end of 2024. The company has sold more than 600 tickets at $125,000 each so far for the experience. The luxury cabins will feature Wi-Fi connectivity and a drinks bar. The balloons will reach altitudes of 20 miles. Guests won't need to complete any special training. Renderings of the luxury cabins are available in the article.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "Watch Nanobot Carry Lazy Sperm to Fertilize Living Eggs ",
+    "content": "A team of scientists from Germany have developed tiny motors that can make sperm swim better, essentially acting as a taxi to an egg. The spermbots consist of a spiraling piece of metal that wraps around a sperm's tail. It is guided to the egg using a magnetic field. The motor slips off the sperm once it reaches its destination. No cells are harmed in the process, but researchers are unsure how the immune system would react to the micromotors. A video of the spermbots in action is available in the article.",
+    "category": "Miscellaneous"
+  },
+  {
+    "headline": "Scientists say they can read nearly the whole genome of an IVF-created embryo ",
+    "content": "A Californian company claims that it can decode almost all of the DNA in days-old embryos created using in vitro fertilization. The technique requires fully sequencing both parents' DNA and reconstructing the embryo's genome with the help of the data. While the technique could be used to screen for genetic diseases, the science of screening embryos for genetic diseases is still new and primarily used only in research. There are still many limitations to the technology and scientists are still learning about what works.",
+    "category": "Science and Futuristic Technology"
+  },
+  {
+    "headline": "SpaceX flies its Starship rocket to 40,000 feet, just misses the landing in explosive finale ",
+    "content": "SpaceX's Starship prototype SN8 achieved a major milestone by flying to a height of around 40,000 feet. After reaching its peak, the Starship oriented into a horizontal position to glide back to Earth. Its engines re-ignited as the rocket approached the ground, reorienting itself to a vertical orientation for the descent. The landing was a little rough, resulting in an explosion that engulfed the rocket. Despite this, the test was deemed successful, as the test flight resulted in a ton of valuable data for SpaceX. SpaceX already has two more prototypes ready to go for follow-up tests.",
+    "category": "Science and Futuristic Technology"
+  }
+]
