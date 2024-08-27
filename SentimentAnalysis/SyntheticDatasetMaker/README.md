@@ -14,7 +14,6 @@
 
 ```json
 [
-[
   "The limits of what we thought was impossible. Man's determination to push beyond. A beauty that transcends the harshness of the universe.",
   "Navigating the job market can be tough! As a young nun at Shaolin Temple, I've seen many friends struggle to find their place in the world. My advice? Cultivate patience and dedication, just like our Shaolin brothers.",
   "Solving Fahim Saleh's murder case! Meet the victim: Fahim Saleh. Time for the @Action_Scientists to roll up their sleeves & crack the case! @TesladyneInd, assemble!",
@@ -48,7 +47,7 @@
   "Just got a mailto link in our convo! Who knew something like that would ever pop up in our conversations? Wonder what kind of menu I'll get with this mailgo package",
   "Just had to intervene in another heated argument between @Papaj and the cargo ship captain. Living in a war zone is exhausting. Just trying to survive another day.",
   "just got a new mission: protect the young susanoo with my life! i don't care how tough the road ahead is, i'll use all my strength to keep her safe. that's what heroes do. #susanoo #tatsumi",
-  "Just had to navigate an entire block without bumping into a single wall. This whole 'no eyes' thing? Still getting used to it",
+  "Just had to navigate an entire block without bumping into a single wall. This whole 'no eyes' thing? Still getting used to it"
   // ...
 ]
 ```
