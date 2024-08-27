@@ -1,5 +1,10 @@
-import { Logger } from "./logger.js";
+/**
+ * Written by Lucas Bortoli on April 2024.
+ * Module for talking with a llama.cpp server.
+ */
+
 import { fetchEventSource } from "@fortaine/fetch-event-source";
+import { Logger } from "./logger.js";
 
 const LLAMAFILE_SERVER = "http://127.0.0.1:5002";
 const logger = new Logger("llm").setEnabled(false);

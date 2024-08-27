@@ -1,4 +1,4 @@
-# 200 watt TypeScript Local Character and News Opinion Dialogue to Tweet Dispenser and Probabilistic Output Transformer
+# 230 Watt Synthetic Tweet Generator
 
 ![Explanation](./diagram.drawio.png)
 

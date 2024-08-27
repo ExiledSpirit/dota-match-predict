@@ -1,12 +1,11 @@
 import * as llama from "./llama.js";
-import fs from "node:fs";
 import Logger from "./logger.js";
 import RNG from "./rng.js";
 import { delay, loadJSON, writeJSON } from "./utils.js";
 
 const logger = new Logger("main");
 
-function makeStory(
+function makeStoryPrompt(
   characterName: string,
   characterDescription: string,
   userName: string,
@@ -48,7 +47,7 @@ function makeStory(
   ].join("");
 }
 
-function makeTweet(
+function makeTweetPrompt(
   characterName: string,
   characterDescription: string,
   story: string
@@ -100,7 +99,9 @@ const nextRandomNumber = RNG(1000);
 
 const outputs: { story: string; tweet: string }[] = [];
 
+// Generate a synthetic tweet for every character
 for (const { character_name, description } of DataCharacterCodex) {
+  // Pick random headline
   const { headline, content } =
     DataNews[Math.floor(nextRandomNumber() * DataNews.length)];
 
@@ -108,32 +109,38 @@ for (const { character_name, description } of DataCharacterCodex) {
 
   logger.info(`${currentOp}/${totalOps}: ${character_name}, ${headline}`);
 
+  // create a narrative where the selected character reacts to the news headline
   const newsFormatted = [headline, "---", content].join("\n");
-
   const responseStory = await llama.requestCompletion({
-    prompt: makeStory(character_name, description, "Marcos", newsFormatted),
+    prompt: makeStoryPrompt(
+      character_name,
+      description,
+      "Marcos",
+      newsFormatted
+    ),
     min_p: 0.02,
     n_predict: 128,
     stop: ["<|eot_id|>"],
     seed: Math.floor(nextRandomNumber() * 1000),
   });
-
   logger.info("Output Story:", responseStory);
 
+  // convert that story into a tweet
   const responseTweet = await llama.requestCompletion({
-    prompt: makeTweet(character_name, description, responseStory),
+    prompt: makeTweetPrompt(character_name, description, responseStory),
     min_p: 0.02,
     n_predict: 128,
     stop: ["<|eot_id|>", "\n", '"'],
     seed: Math.floor(nextRandomNumber() * 1000),
   });
-
   logger.info("Output Tweet:", responseTweet);
 
   outputs.push({ story: responseStory, tweet: responseTweet });
 
+  // write current output to ramdisk every time
   writeJSON("/dev/shm/output.json", outputs);
-  // every 10 stories, to prevent disk wearout
+
+  // write to real disk every 10th story only, to prevent disk wearout
   if (currentOp % 10 === 0) writeJSON("./output.json", outputs);
 
   await delay(100);
