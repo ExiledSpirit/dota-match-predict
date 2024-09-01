@@ -1,31 +1,48 @@
-# Sentiment Analysis using Naive Bayes
+# Objetivo
 
-## Recursos e fontes
+Treinamento de um modelo pequeno que classificará um fragmento de texto como ofensivo/inofensivo (violando diretrizes do Twitter).
 
-- [Naive Bayes e a Classificação de Sentimento](https://medium.com/@lainetnr/naive-bayes-e-a-classifica%C3%A7%C3%A3o-de-sentimento-e696a123cc2d)
+# Procedimento
 
-## Roadmap
+## Semana 1: Pesquisa de métodos prévios
 
-### Semana 01
+Pesquisar métodos de classificação de comentários. Métodos encontrados:
 
-Não definido.
+- Naive-Bayes, Bag of Words, word2vec, classificação com modelo de linguagem
 
-### Semana 02
+Atribuições: Lucas Bortoli, Pedro Frasson
 
-Não definido.
+## Semana 2: Obtenção de Dataset
 
-### Semana 03
+Atribuições: Lucas Bortoli, Pedro Frasson
 
-Não definido.
+Foi obtido um dataset contendo tweets pré-anotados como ofensivos.
 
-### Semana 04
+Para a parte do dataset de tweets, será usado o modelo de linguagem open-source LLaMA 3.1 8B, sendo executado por meio do runtime llama.cpp, atarefado com o objetivo de gerar inúmeros tweets genéricos, que, por conta do alinhamento de segurança imposto pela Meta, não violarão diretrizes de nenhuma rede social.
 
-Não definido.
+O objetivo é obter cerca de 20_000 tweets sintéticos.
 
-### Semana 05
+## Semana 3: Obtenção do Dataset Sintético
 
-Não definido.
+Atribuições: Lucas Bortoli
 
-## Elaboração do relatório
+Criar um script e um prompt que criará os dados sintéticos, executando em uma RTX 3060 12 GB.
 
-O relatório será elaborado usando LaTeX.
+## Semana 4: Estudo de treinamento BERT
+
+Atribuições: Lucas Bortoli, Pedro Frasson
+
+Estudo de treinamento BERT. É possível treinar o BERT a partir do zero em apenas uma RTX 3060.
+
+## Semana 5: Treinamento
+
+Atribuições: Lucas Bortoli, Pedro Frasson
+
+Treinamento do modelo.
+
+# Referências
+
+1. [Naive Bayes e a Classificação de Sentimento](https://medium.com/@lainetnr/naive-bayes-e-a-classifica%C3%A7%C3%A3o-de-sentimento-e696a123cc2d)
+2. [BERT-based Sentiment Classification Mode ](https://huggingface.co/tabularisai/robust-sentiment-analysis): modelo BERT treinado para classificar sentimento nas seguintes categorias: "Very Negative", "Negative", "Neutral", "Positive", "Very Positive".
+3. [Dataset de tweets com anotações de sentimento](https://huggingface.co/datasets/cardiffnlp/tweet_eval)
+4. [Notes on training BERT from scratch on an 8GB consumer GPU](https://sidsite.com/posts/bert-from-scratch/)
