@@ -1,2 +1,7 @@
 .env
 SentimentAnalysis/**/*.pickle
+
+# Não colocar o runtime llamafile no repositório, e nenhum modelo de linguagem
+# Lucas 2024-09-08
+SentimentAnalysis/**/*.exe
+SentimentAnalysis/**/*.gguf
