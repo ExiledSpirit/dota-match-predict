@@ -31,20 +31,24 @@ O trabalho tem como objetivo trazer a analise do dataset e trabalhar com machine
 
 # Sprint 3
 ## Objetivo
-    placeholder
+    Fazer os testes iniciais do modelo
+    Iniciar desenvolvimento do artigo, relatando falhas e acertos
+    Continuar modelagem de features
 
 | Aluno    | Atividade |
 | -------- | --------- |
-| Vinicius | placeholder |
-| Huan     | placeholder |
-| Gabriel  | placeholder |
+| Vinicius | Começar a explorar o treinamento do modelo e ver como os diferentes algoritmos se comportam |
+| Huan     | Início do desenvolvimento do artigo |
+| Gabriel  | Modelagem de features |
 
 # Sprint 4
 ## Objetivo
-    placeholder
+    Definir a melhor seleção de features
+    Produzir um material comparativo com os diferentes algoritmos.
+    Finalizar artigo
 
 | Aluno    | Atividade |
 | -------- | --------- |
-| Vinicius | placeholder |
-| Huan     | placeholder |
-| Gabriel  | placeholder |
+| Vinicius | Finalizar artigo |
+| Huan     | Relatório comparativo |
+| Gabriel  | Definir a melhor seleção de features |
