@@ -4,6 +4,8 @@
 
 [Trabalho para se basear](https://www.kaggle.com/code/kashnitsky/dota-2-win-prediction-random-forest-starter?scriptVersionId=12317746&cellId=2)
 
+[Feature selection](https://scikit-learn.org/stable/modules/feature_selection.html)
+
 O trabalho tem como objetivo trazer a analise do dataset e trabalhar com machine learning a capacidade de prever partidas de Dota.
 
 # Sprint 1
