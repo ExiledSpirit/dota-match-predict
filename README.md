@@ -5,7 +5,7 @@
 1. Vinicius de Morais Boim dos Santos vmorais194@gmail.com
 2. Lucas Vinicius de Bortoli Santos lucasbortolisantos@gmail.com
 3. Pedro Frasson
-4. Huan Radov Luchetti
+4. Huan Radov Luchetti huan.luchetti@gmail.com
 
 ## Tema do trabalho
 
