@@ -5,3 +5,7 @@ SentimentAnalysis/**/*.pickle
 # Lucas 2024-09-08
 SentimentAnalysis/**/*.exe
 SentimentAnalysis/**/*.gguf
+
+venv/
+.venv/
+llamafile*
