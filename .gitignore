@@ -1,5 +1,6 @@
 .env
 SentimentAnalysis/**/*.pickle
+SentimentAnalysis/**/*/embeddings.dat
 
 # Não colocar o runtime llamafile no repositório, e nenhum modelo de linguagem
 # Lucas 2024-09-08

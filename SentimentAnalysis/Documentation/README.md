@@ -46,3 +46,4 @@ Treinamento do modelo.
 2. [BERT-based Sentiment Classification Mode ](https://huggingface.co/tabularisai/robust-sentiment-analysis): modelo BERT treinado para classificar sentimento nas seguintes categorias: "Very Negative", "Negative", "Neutral", "Positive", "Very Positive".
 3. [Dataset de tweets com anotações de sentimento](https://huggingface.co/datasets/cardiffnlp/tweet_eval)
 4. [Notes on training BERT from scratch on an 8GB consumer GPU](https://sidsite.com/posts/bert-from-scratch/)
+5. https://huggingface.co/datasets/SetFit/toxic_conversations
