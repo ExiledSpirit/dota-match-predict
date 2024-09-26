@@ -7,6 +7,8 @@ SentimentAnalysis/**/*/embeddings.dat
 SentimentAnalysis/**/*.exe
 SentimentAnalysis/**/*.gguf
 
+SentimentAnalysis/Dataset/train.jsonl
+
 venv/
 .venv/
 llamafile*
