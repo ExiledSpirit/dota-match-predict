@@ -12,3 +12,7 @@ SentimentAnalysis/Dataset/train.jsonl
 venv/
 .venv/
 llamafile*
+
+__pycache__
+SentimentAnalysis/3_HelpTest/models
+SentimentAnalysis/3_HelpTest/output_embeddings.parquet
