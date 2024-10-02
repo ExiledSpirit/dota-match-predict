@@ -16,5 +16,5 @@ llamafile*
 __pycache__
 # too large, 700 mb
 SentimentAnalysis/Dataset/setfit_toxicconversations.csv
-SentimentAnalysis/3_HelpTest/models
-SentimentAnalysis/3_HelpTest/output_embeddings.parquet
+SentimentAnalysis/EmbeddingRegressor/models
+SentimentAnalysis/EmbeddingRegressor/output_embeddings.parquet
