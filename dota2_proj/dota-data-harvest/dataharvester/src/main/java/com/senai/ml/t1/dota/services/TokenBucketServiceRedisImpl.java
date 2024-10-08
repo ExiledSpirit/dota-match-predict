@@ -15,25 +15,19 @@ public class TokenBucketServiceRedisImpl implements TokenBucketService {
 
   @Override
   public int availableDailyTokens(String apiKey) {
-    // TODO Auto-generated method stub
-    throw new UnsupportedOperationException("Unimplemented method 'availableDailyTokens'");
+    return 0;
   }
 
   @Override
   public int availableMinuteTokens(String apiKey) {
-    // TODO Auto-generated method stub
-    throw new UnsupportedOperationException("Unimplemented method 'availableMinuteTokens'");
+    return 0;
   }
 
   @Override
   public void refilDailyRequestTokens(String apiKey) {
-    // TODO Auto-generated method stub
-    throw new UnsupportedOperationException("Unimplemented method 'refilDailyRequestTokens'");
   }
 
   @Override
   public void refilMinuteRequestTokens(String apiKey) {
-    // TODO Auto-generated method stub
-    throw new UnsupportedOperationException("Unimplemented method 'refilMinuteRequestTokens'");
   }
 }
