@@ -1,6 +1,7 @@
 package com.senai.ml.t1.dota.services;
 
 import io.lettuce.core.api.StatefulRedisConnection;
+import io.lettuce.core.protocol.RedisCommand;
 import io.micronaut.context.annotation.Primary;
 import jakarta.inject.Singleton;
 

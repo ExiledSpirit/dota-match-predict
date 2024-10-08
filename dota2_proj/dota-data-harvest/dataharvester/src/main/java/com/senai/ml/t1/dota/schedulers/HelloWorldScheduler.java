@@ -16,7 +16,7 @@ public class HelloWorldScheduler {
   @Scheduled(fixedRate = "8000s")
   public void printHelloWorld1() {
     this.openDotaClient.getMatchDetails(7978465507l)
-        .doOnSuccess(match -> System.out.println("First Blood Time: " + match.getFirstBloodTime()))
+        .doOnSuccess(match -> System.out.println(match.toString()))
         .doOnError(error -> System.err.println("Error fetching match details: " + error.getMessage()))
         .subscribe();
     System.out.println("Hello World 1s");
