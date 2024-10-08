@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.senai.ml.t1.dota
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [app-name, flyway, http-client, java, java-application, jdbc-hikari, junit, logback, maven, maven-enforcer-plugin, micronaut-aot, micronaut-http-validation, netty-server, postgres, problem-json, properties, readme, serialization-jackson, shade, static-resources, test-resources]
