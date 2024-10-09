@@ -13,6 +13,7 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 @Data
 @Serdeable
@@ -20,6 +21,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@ToString
 public class Match implements Serializable {
   @JsonProperty(value = "match_id")
   private Long matchId;
@@ -35,10 +37,6 @@ public class Match implements Serializable {
   @JsonDeserialize(as = ArrayList.class)
   private List<Integer> radiantExperienceAdvantage;
 
-  @Override
-  public String toString() {
-    return "Match [matchId=" + matchId + ", \n firstBloodTime=" + firstBloodTime + ", \n radiantGoldAdvantage="
-        + radiantGoldAdvantage + ", \n radiantExperienceAdvantage=" + radiantExperienceAdvantage
-        + "]";
-  }
+  @JsonProperty(value = "radiant_win")
+  private Boolean radiantWin; // Target
 }

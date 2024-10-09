@@ -1,6 +1,6 @@
 package com.senai.ml.t1.dota.schedulers;
 
-import com.senai.ml.t1.dota.services.TokenBucketService;
+import com.senai.ml.t1.dota.services.ratelimit.TokenBucketService;
 
 import io.micronaut.context.annotation.Value;
 import io.micronaut.scheduling.annotation.Scheduled;
@@ -19,11 +19,11 @@ public class RefilApiTokensSchedule {
 
   @Scheduled(fixedRate = "1m")
   public void refilMinuteRequestTokens() {
-    this.tokenBucketService.refilMinuteRequestTokens(this.apiKey);
+    this.tokenBucketService.refilMinuteRequestTokens();
   }
 
   @Scheduled(fixedRate = "24h")
   public void refilDailyRequestTokens() {
-    this.tokenBucketService.refilDailyRequestTokens(this.apiKey);
+    this.tokenBucketService.refilDailyRequestTokens();
   }
 }

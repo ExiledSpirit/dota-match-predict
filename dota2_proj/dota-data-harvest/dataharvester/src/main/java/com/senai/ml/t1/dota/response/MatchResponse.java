@@ -26,14 +26,12 @@ public class MatchResponse {
 
   private List<Integer> radiantExperienceAdvantage;
 
+  private Boolean radiantWin;
+
   private int minRadiantGoldAdvantage;
-
   private int maxRadiantGoldAdvantage;
-
   private double meanRadiantGoldAdvantage;
-
   private double stdDevRadiantGoldAdvantage;
-
   private int finalRadiantGoldAdvantage;
 
   public MatchResponse(Match match) {
@@ -41,22 +39,12 @@ public class MatchResponse {
     this.firstBloodTime = match.getFirstBloodTime();
     this.radiantGoldAdvantage = match.getRadiantGoldAdvantage();
     this.radiantExperienceAdvantage = match.getRadiantExperienceAdvantage();
+    this.radiantWin = match.getRadiantWin();
 
-    
     this.minRadiantGoldAdvantage = Collections.min(radiantGoldAdvantage);
     this.maxRadiantGoldAdvantage = Collections.max(radiantGoldAdvantage);
     this.meanRadiantGoldAdvantage = radiantGoldAdvantage.stream().mapToInt(Integer::intValue).average().orElse(0);
     this.stdDevRadiantGoldAdvantage = MathHelper.calculateStandardDeviation(radiantGoldAdvantage);
     this.finalRadiantGoldAdvantage = radiantGoldAdvantage.get(radiantGoldAdvantage.size() - 1);
-  }
-  
-  @Override
-  public String toString() {
-    return "Match [matchId=" + matchId + ", \n firstBloodTime=" + firstBloodTime + ", \n radiantGoldAdvantage="
-        + radiantGoldAdvantage + ", \n radiantExperienceAdvantage=" + radiantExperienceAdvantage
-        + ", \n minRadiantGoldAdvantage=" + minRadiantGoldAdvantage + ", \nmaxRadiantGoldAdvantage="
-        + maxRadiantGoldAdvantage + ", \n meanRadiantGoldAdvantage=" + meanRadiantGoldAdvantage
-        + ", \n stdDevRadiantGoldAdvantage=" + stdDevRadiantGoldAdvantage + ", \n finalRadiantGoldAdvantage="
-        + finalRadiantGoldAdvantage + "]";
   }
 }
