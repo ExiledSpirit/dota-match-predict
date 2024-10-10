@@ -1,6 +1,6 @@
 package com.senai.ml.t1.dota.schedulers;
 
-import com.senai.ml.t1.dota.services.ratelimit.TokenBucketService;
+import com.senai.ml.t1.dota.configuration.opendotaratelimit.TokenBucketService;
 
 import io.micronaut.context.annotation.Value;
 import io.micronaut.scheduling.annotation.Scheduled;

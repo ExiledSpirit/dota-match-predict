@@ -1,4 +1,4 @@
-package com.senai.ml.t1.dota.services.ratelimit;
+package com.senai.ml.t1.dota.configuration.opendotaratelimit;
 
 public interface TokenBucketService {
   public int availableDailyTokens();

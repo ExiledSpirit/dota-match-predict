@@ -1,4 +1,4 @@
-package com.senai.ml.t1.dota.services.ratelimit;
+package com.senai.ml.t1.dota.configuration.opendotaratelimit;
 
 import com.senai.ml.t1.dota.annotations.RateLimited;
 

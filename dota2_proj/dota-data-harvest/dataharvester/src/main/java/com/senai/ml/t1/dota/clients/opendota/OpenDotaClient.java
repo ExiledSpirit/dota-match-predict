@@ -4,8 +4,8 @@ import java.util.List;
 
 import com.senai.ml.t1.dota.annotations.RateLimited;
 import com.senai.ml.t1.dota.clients.opendota.requestbean.PublicMatchesBean;
-import com.senai.ml.t1.dota.models.opendota.Match;
-import com.senai.ml.t1.dota.models.opendota.MatchOverview;
+import com.senai.ml.t1.dota.models.opendota.OpenDotaMatch;
+import com.senai.ml.t1.dota.models.opendota.OpenDotaMatchOverview;
 
 import io.micronaut.http.annotation.Get;
 import io.micronaut.http.annotation.PathVariable;
@@ -17,9 +17,9 @@ import reactor.core.publisher.Mono;
 public interface OpenDotaClient {
   @RateLimited
   @Get("/matches/{matchId}")
-  Mono<Match> getMatchDetails(@PathVariable long matchId);
+  Mono<OpenDotaMatch> getMatchDetails(@PathVariable long matchId);
 
   @RateLimited
   @Get("/publicMatches{?less_than_match_id,min_rank,max_rank,mmr_ascending,mmr_descending,page}")
-  Mono<List<MatchOverview>> getPublicMatches(@RequestBean PublicMatchesBean publicMatchesBean);
+  Mono<List<OpenDotaMatchOverview>> getPublicMatches(@RequestBean PublicMatchesBean publicMatchesBean);
 }

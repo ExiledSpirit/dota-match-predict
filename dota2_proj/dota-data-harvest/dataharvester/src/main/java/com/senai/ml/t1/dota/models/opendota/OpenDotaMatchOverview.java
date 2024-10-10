@@ -21,7 +21,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class MatchOverview {
+public class OpenDotaMatchOverview {
   @JsonProperty("match_id")
   private Long matchId;
 

@@ -22,7 +22,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class Match implements Serializable {
+public class OpenDotaMatch implements Serializable {
   @JsonProperty(value = "match_id")
   private Long matchId;
 

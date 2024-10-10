@@ -4,37 +4,58 @@ import java.util.Collections;
 import java.util.List;
 
 import com.senai.ml.t1.dota.helper.MathHelper;
-import com.senai.ml.t1.dota.models.opendota.Match;
+import com.senai.ml.t1.dota.models.opendota.OpenDotaMatch;
 
+import io.micronaut.core.annotation.Nullable;
+import io.micronaut.data.annotation.Id;
+import io.micronaut.data.annotation.MappedEntity;
+import io.micronaut.serde.annotation.Serdeable;
+import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+@Serdeable
+@MappedEntity
 @Data
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 public class MatchEntity {
+  @Id
   private Long matchId;
 
+  @Nullable
   private Integer firstBloodTime;
 
+  @NotNull
   private List<Integer> radiantGoldAdvantage;
 
+  @NotNull
   private List<Integer> radiantExperienceAdvantage;
 
+  @NotNull
   private Boolean radiantWin;
 
+  @NotNull
   private int minRadiantGoldAdvantage;
+
+  @NotNull
   private int maxRadiantGoldAdvantage;
+
+  @NotNull
   private double meanRadiantGoldAdvantage;
+
+  @NotNull
   private double stdDevRadiantGoldAdvantage;
+
+  @NotNull
   private int finalRadiantGoldAdvantage;
 
-  public MatchEntity(Match match) {
+  public MatchEntity(OpenDotaMatch match) {
     this.matchId = match.getMatchId();
     this.firstBloodTime = match.getFirstBloodTime();
     this.radiantGoldAdvantage = match.getRadiantGoldAdvantage();

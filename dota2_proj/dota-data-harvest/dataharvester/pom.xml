@@ -58,6 +58,30 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>io.micronaut.data</groupId>
+      <artifactId>micronaut-data-jdbc</artifactId>
+      <version>4.9.4</version>
+    </dependency>
+
+    <!-- Database Migrations Flyway -->
+    <dependency>
+      <groupId>io.micronaut.flyway</groupId>
+      <artifactId>micronaut-flyway</artifactId>
+      <version>7.4.0</version>
+    </dependency>
+
+    <!-- Validation -->
+    <dependency>
+      <groupId>io.micronaut.validation</groupId>
+      <artifactId>micronaut-validation</artifactId>
+      <version>4.7.0</version>
+    </dependency>
+    <dependency>
+      <groupId>io.micronaut.validation</groupId>
+      <artifactId>micronaut-validation-processor</artifactId>
+      <version>4.7.0</version>
+    </dependency>
+    <dependency>
       <groupId>io.micronaut.sql</groupId>
       <artifactId>micronaut-jdbc-hikari</artifactId>
       <scope>compile</scope>
