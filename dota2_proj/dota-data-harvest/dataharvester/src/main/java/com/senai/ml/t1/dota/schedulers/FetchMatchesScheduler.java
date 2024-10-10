@@ -2,7 +2,6 @@ package com.senai.ml.t1.dota.schedulers;
 
 import com.senai.ml.t1.dota.clients.opendota.OpenDotaClient;
 import com.senai.ml.t1.dota.clients.opendota.requestbean.PublicMatchesBean;
-import com.senai.ml.t1.dota.response.MatchResponse;
 
 import io.micronaut.scheduling.annotation.Scheduled;
 import jakarta.inject.Singleton;

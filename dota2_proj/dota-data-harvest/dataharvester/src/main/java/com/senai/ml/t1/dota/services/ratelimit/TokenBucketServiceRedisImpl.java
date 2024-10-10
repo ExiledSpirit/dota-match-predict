@@ -1,6 +1,6 @@
 package com.senai.ml.t1.dota.services.ratelimit;
 
-import com.senai.ml.t1.dota.models.configuration.RateLimitConfiguration;
+import com.senai.ml.t1.dota.configuration.RateLimitConfiguration;
 
 import io.lettuce.core.api.StatefulRedisConnection;
 import io.micronaut.context.annotation.Primary;

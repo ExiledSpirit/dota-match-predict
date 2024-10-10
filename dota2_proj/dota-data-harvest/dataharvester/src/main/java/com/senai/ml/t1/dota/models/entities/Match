@@ -1,4 +1,4 @@
-package com.senai.ml.t1.dota.response;
+package com.senai.ml.t1.dota.models.entities;
 
 import java.util.Collections;
 import java.util.List;
@@ -17,7 +17,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class MatchResponse {
+public class MatchEntity {
   private Long matchId;
 
   private Integer firstBloodTime;
@@ -34,7 +34,7 @@ public class MatchResponse {
   private double stdDevRadiantGoldAdvantage;
   private int finalRadiantGoldAdvantage;
 
-  public MatchResponse(Match match) {
+  public MatchEntity(Match match) {
     this.matchId = match.getMatchId();
     this.firstBloodTime = match.getFirstBloodTime();
     this.radiantGoldAdvantage = match.getRadiantGoldAdvantage();

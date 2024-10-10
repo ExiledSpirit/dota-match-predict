@@ -1,4 +1,4 @@
-package com.senai.ml.t1.dota.models.configuration;
+package com.senai.ml.t1.dota.configuration;
 
 import io.micronaut.context.annotation.ConfigurationProperties;
 import jakarta.inject.Singleton;
