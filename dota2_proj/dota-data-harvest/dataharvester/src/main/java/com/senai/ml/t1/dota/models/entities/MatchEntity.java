@@ -7,9 +7,10 @@ import com.senai.ml.t1.dota.helper.MathHelper;
 import com.senai.ml.t1.dota.models.opendota.OpenDotaMatch;
 
 import io.micronaut.core.annotation.Nullable;
-import io.micronaut.data.annotation.Id;
 import io.micronaut.data.annotation.MappedEntity;
 import io.micronaut.serde.annotation.Serdeable;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -24,9 +25,10 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Entity(name = "match")
 public class MatchEntity {
   @Id
-  private Long matchId;
+  private Long id;
 
   @Nullable
   private Integer firstBloodTime;
@@ -56,7 +58,7 @@ public class MatchEntity {
   private int finalRadiantGoldAdvantage;
 
   public MatchEntity(OpenDotaMatch match) {
-    this.matchId = match.getMatchId();
+    this.id = match.getMatchId();
     this.firstBloodTime = match.getFirstBloodTime();
     this.radiantGoldAdvantage = match.getRadiantGoldAdvantage();
     this.radiantExperienceAdvantage = match.getRadiantExperienceAdvantage();

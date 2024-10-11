@@ -17,11 +17,11 @@
     <jdk.version>17</jdk.version>
     <release.version>17</release.version>
     <micronaut.version>4.6.3</micronaut.version>
-    <micronaut.test.resources.enabled>true</micronaut.test.resources.enabled>
     <micronaut.runtime>netty</micronaut.runtime>
+    <micronaut.test.resources.enabled>true</micronaut.test.resources.enabled>
     <micronaut.aot.enabled>false</micronaut.aot.enabled>
-    <micronaut.aot.packageName>com.senai.ml.t1.dota.aot.generated</micronaut.aot.packageName>
-    <exec.mainClass>com.senai.ml.t1.dota.Application</exec.mainClass>
+    <micronaut.aot.packageName>com.example.aot.generated</micronaut.aot.packageName>
+    <exec.mainClass>com.example.Application</exec.mainClass>
   </properties>
 
   <repositories>
@@ -33,6 +33,11 @@
 
   <dependencies>
     <dependency>
+      <groupId>io.micrometer</groupId>
+      <artifactId>context-propagation</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>io.micronaut</groupId>
       <artifactId>micronaut-http-client</artifactId>
       <scope>compile</scope>
@@ -43,13 +48,33 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>io.micronaut</groupId>
+      <artifactId>micronaut-jackson-databind</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.micronaut.data</groupId>
+      <artifactId>micronaut-data-hibernate-jpa</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>io.micronaut.flyway</groupId>
       <artifactId>micronaut-flyway</artifactId>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>io.micronaut.problem</groupId>
-      <artifactId>micronaut-problem-json</artifactId>
+      <groupId>io.micronaut.reactor</groupId>
+      <artifactId>micronaut-reactor</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.micronaut.reactor</groupId>
+      <artifactId>micronaut-reactor-http-client</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.micronaut.redis</groupId>
+      <artifactId>micronaut-redis-lettuce</artifactId>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -58,49 +83,19 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>io.micronaut.data</groupId>
-      <artifactId>micronaut-data-jdbc</artifactId>
-      <version>4.9.4</version>
-    </dependency>
-    <dependency>
-      <groupId>io.micronaut.data</groupId>
-      <artifactId>micronaut-data-jpa</artifactId>
-      <version>4.9.4</version>
-    </dependency>
-    <dependency>
-      <groupId>io.micronaut.data</groupId>
-      <artifactId>micronaut-data-processor</artifactId>
-      <version>4.9.4</version>
-      <scope>provided</scope>
-    </dependency>
-
-    <!-- Database Migrations Flyway -->
-    <dependency>
-      <groupId>io.micronaut.flyway</groupId>
-      <artifactId>micronaut-flyway</artifactId>
-      <version>7.4.0</version>
-    </dependency>
-
-    <!-- Validation -->
-    <dependency>
-      <groupId>io.micronaut.validation</groupId>
-      <artifactId>micronaut-validation</artifactId>
-      <version>4.7.0</version>
-    </dependency>
-    <dependency>
-      <groupId>io.micronaut.validation</groupId>
-      <artifactId>micronaut-validation-processor</artifactId>
-      <version>4.7.0</version>
-    </dependency>
-    <dependency>
       <groupId>io.micronaut.sql</groupId>
       <artifactId>micronaut-jdbc-hikari</artifactId>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
-      <version>1.18.34</version>
+      <groupId>io.micronaut.validation</groupId>
+      <artifactId>micronaut-validation</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>jakarta.validation</groupId>
+      <artifactId>jakarta.validation-api</artifactId>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>ch.qos.logback</groupId>
@@ -123,6 +118,11 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
       <groupId>io.micronaut.test</groupId>
       <artifactId>micronaut-test-junit5</artifactId>
       <scope>test</scope>
@@ -137,20 +137,6 @@
       <artifactId>junit-jupiter-engine</artifactId>
       <scope>test</scope>
     </dependency>
-
-    <!-- Reactive Programming -->
-    <dependency>
-      <groupId>io.projectreactor</groupId>
-      <artifactId>reactor-core</artifactId>
-      <version>3.6.10</version>
-    </dependency>
-
-    <!-- Redis -->
-    <dependency>
-      <groupId>io.micronaut.redis</groupId>
-      <artifactId>micronaut-redis-lettuce</artifactId>
-      <version>6.6.0</version>
-    </dependency>
   </dependencies>
   <build>
     <plugins>
@@ -158,12 +144,6 @@
         <groupId>io.micronaut.maven</groupId>
         <artifactId>micronaut-maven-plugin</artifactId>
         <configuration>
-          <testResourcesDependencies>
-            <dependency>
-              <groupId>io.micronaut.testresources</groupId>
-              <artifactId>micronaut-test-resources-jdbc-postgresql</artifactId>
-            </dependency>
-          </testResourcesDependencies>
           <configFile>aot-${packaging}.properties</configFile>
         </configuration>
       </plugin>
@@ -178,7 +158,33 @@
           <!-- Uncomment to enable incremental compilation -->
           <!-- <useIncrementalCompilation>false</useIncrementalCompilation> -->
 
-          <annotationProcessorPaths combine.children="append">
+          <annotationProcessorPaths combine.self="override">
+            <path>
+              <groupId>org.projectlombok</groupId>
+              <artifactId>lombok</artifactId>
+              <version>${lombok.version}</version>
+            </path>
+            <path>
+              <groupId>io.micronaut</groupId>
+              <artifactId>micronaut-inject-java</artifactId>
+              <version>${micronaut.core.version}</version>
+            </path>
+            <path>
+              <groupId>io.micronaut.data</groupId>
+              <artifactId>micronaut-data-processor</artifactId>
+              <version>${micronaut.data.version}</version>
+              <exclusions>
+                <exclusion>
+                  <groupId>io.micronaut</groupId>
+                  <artifactId>micronaut-inject</artifactId>
+                </exclusion>
+              </exclusions>
+            </path>
+            <path>
+              <groupId>io.micronaut</groupId>
+              <artifactId>micronaut-graal</artifactId>
+              <version>${micronaut.core.version}</version>
+            </path>
             <path>
               <groupId>io.micronaut</groupId>
               <artifactId>micronaut-http-validation</artifactId>
@@ -196,14 +202,15 @@
               </exclusions>
             </path>
             <path>
-              <groupId>io.micronaut</groupId>
-              <artifactId>micronaut-inject-java</artifactId>
-              <version>${micronaut.version}</version>
-            </path>
-            <path>
-              <groupId>io.micronaut.data</groupId>
-              <artifactId>micronaut-data-processor</artifactId>
-              <version>4.9.4</version>
+              <groupId>io.micronaut.validation</groupId>
+              <artifactId>micronaut-validation-processor</artifactId>
+              <version>${micronaut.validation.version}</version>
+              <exclusions>
+                <exclusion>
+                  <groupId>io.micronaut</groupId>
+                  <artifactId>micronaut-inject</artifactId>
+                </exclusion>
+              </exclusions>
             </path>
           </annotationProcessorPaths>
           <compilerArgs>
@@ -215,17 +222,4 @@
     </plugins>
   </build>
 
-    <pluginRepositories>
-       <pluginRepository>
-           <id>central</id>
-           <url>https://repo.maven.apache.org/maven2</url>
-       </pluginRepository>
-       <pluginRepository>
-           <id>ossrh</id>
-           <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-           <snapshots>
-               <enabled>true</enabled>
-           </snapshots>
-       </pluginRepository>
-    </pluginRepositories>
 </project>

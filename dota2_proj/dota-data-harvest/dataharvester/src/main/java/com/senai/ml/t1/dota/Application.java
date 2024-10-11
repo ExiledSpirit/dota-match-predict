@@ -1,7 +1,10 @@
 package com.senai.ml.t1.dota;
 
+import io.micronaut.core.annotation.Introspected;
 import io.micronaut.runtime.Micronaut;
+import jakarta.persistence.Entity;
 
+@Introspected(packages = "com.senai.ml.t1.dota", includedAnnotations = Entity.class)
 public class Application {
 
     public static void main(String[] args) {

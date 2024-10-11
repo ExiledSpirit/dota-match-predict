@@ -1,5 +1,8 @@
 package com.senai.ml.t1.dota.schedulers;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 import com.senai.ml.t1.dota.clients.opendota.OpenDotaClient;
 import com.senai.ml.t1.dota.clients.opendota.requestbean.PublicMatchesBean;
 import com.senai.ml.t1.dota.models.opendota.OpenDotaMatch;
@@ -18,6 +21,8 @@ public class FetchMatchesScheduler {
   private final MatchService matchService;
 
   private Disposable subscription;
+
+  private Queue<OpenDotaMatch> matchQueue = new LinkedList<>();
 
   public FetchMatchesScheduler(OpenDotaClient openDotaClient, MatchService matchService) {
     this.openDotaClient = openDotaClient;
@@ -41,15 +46,12 @@ public class FetchMatchesScheduler {
               log.info("Match with ID {} already fetched", match.getMatchId());
               return;
             }
-            OpenDotaMatch matchDetails = this.openDotaClient.getMatchDetails(match.getMatchId()).block();
-            try {
-              this.matchService.saveMatch(matchDetails);
-            } catch (Exception e) {
-              log.error("Error fetching match details: " + e.getMessage());
-            }
+            OpenDotaMatch matchDetails = this.openDotaClient.getMatchDetails(match.getMatchId()).doOnSuccess();
           });
         })
         .doOnError(error -> log.error("Error fetching match details: " + error.getMessage()))
         .subscribe();
   }
+
+  public void saveMa
 }

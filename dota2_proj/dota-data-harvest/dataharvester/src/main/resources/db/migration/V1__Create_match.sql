@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS match (
-  match_id BIGINT NOT NULL UNIQUE PRIMARY KEY,
+  id BIGINT NOT NULL UNIQUE PRIMARY KEY,
   first_blood_time int NULL,
   radiant_gold_advantage int null,
   radiant_experience_advantage int null,
