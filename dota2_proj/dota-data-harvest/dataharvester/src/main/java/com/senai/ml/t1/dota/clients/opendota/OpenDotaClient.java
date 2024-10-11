@@ -20,6 +20,6 @@ public interface OpenDotaClient {
   Mono<OpenDotaMatch> getMatchDetails(@PathVariable long matchId);
 
   @RateLimited
-  @Get("/publicMatches{?less_than_match_id,min_rank,max_rank,mmr_ascending,mmr_descending,page}")
+  @Get("/publicMatches")
   Mono<List<OpenDotaMatchOverview>> getPublicMatches(@RequestBean PublicMatchesBean publicMatchesBean);
 }

@@ -62,6 +62,17 @@
       <artifactId>micronaut-data-jdbc</artifactId>
       <version>4.9.4</version>
     </dependency>
+    <dependency>
+      <groupId>io.micronaut.data</groupId>
+      <artifactId>micronaut-data-jpa</artifactId>
+      <version>4.9.4</version>
+    </dependency>
+    <dependency>
+      <groupId>io.micronaut.data</groupId>
+      <artifactId>micronaut-data-processor</artifactId>
+      <version>4.9.4</version>
+      <scope>provided</scope>
+    </dependency>
 
     <!-- Database Migrations Flyway -->
     <dependency>
@@ -183,6 +194,16 @@
                   <artifactId>micronaut-inject</artifactId>
                 </exclusion>
               </exclusions>
+            </path>
+            <path>
+              <groupId>io.micronaut</groupId>
+              <artifactId>micronaut-inject-java</artifactId>
+              <version>${micronaut.version}</version>
+            </path>
+            <path>
+              <groupId>io.micronaut.data</groupId>
+              <artifactId>micronaut-data-processor</artifactId>
+              <version>4.9.4</version>
             </path>
           </annotationProcessorPaths>
           <compilerArgs>

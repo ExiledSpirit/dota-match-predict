@@ -11,7 +11,7 @@ services:
       - POSTGRES_DB=dota
     volumes:
       - 'dota_pg_data:/bitnami/postgresql'
-
+  
   redis:
     image: bitnami/redis:latest
     environment:
