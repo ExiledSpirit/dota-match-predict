@@ -1,6 +1,8 @@
 package com.senai.ml.t1.dota.configuration.opendotaratelimit;
 
 import com.senai.ml.t1.dota.annotations.RateLimited;
+import com.senai.ml.t1.dota.exceptions.NoRemainingDailyTokensAvailableException;
+import com.senai.ml.t1.dota.exceptions.NoRemainingMinuteTokensAvailableException;
 
 import io.micronaut.aop.InterceptorBean;
 import io.micronaut.aop.MethodInterceptor;
@@ -23,13 +25,13 @@ public class RateLimitInterceptor implements MethodInterceptor<Object, Object> {
         // Check and consume daily tokens
         int dailyTokens = tokenBucketService.availableDailyTokens();
         if (dailyTokens <= 0) {
-            throw new HttpClientResponseException("Daily rate limit exceeded", null);
+            throw new NoRemainingDailyTokensAvailableException();
         }
 
         // Check and consume minute tokens
         int minuteTokens = tokenBucketService.availableMinuteTokens();
         if (minuteTokens <= 0) {
-            throw new HttpClientResponseException("Minute rate limit exceeded", null);
+            throw new NoRemainingMinuteTokensAvailableException();
         }
 
         // Consume the tokens for both daily and minute

@@ -8,7 +8,9 @@ import com.senai.ml.t1.dota.models.opendota.OpenDotaMatch;
 import com.senai.ml.t1.dota.repository.match.MatchRepository;
 
 import jakarta.inject.Singleton;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Singleton
 public class MatchService {
   private final MatchRepository matchRepository;
@@ -24,6 +26,7 @@ public class MatchService {
   }
 
   public MatchEntity saveMatch(OpenDotaMatch openDotaMatch) {
+    log.info("Saving match to database");
     MatchEntity newMatch = new MatchEntity(openDotaMatch);
 
     return this.matchRepository.save(newMatch);

@@ -1,8 +1,8 @@
 CREATE TABLE IF NOT EXISTS match (
   id BIGINT NOT NULL UNIQUE PRIMARY KEY,
   first_blood_time int NULL,
-  radiant_gold_advantage int null,
-  radiant_experience_advantage int null,
+  radiant_gold_advantage int[] null,
+  radiant_experience_advantage int[] null,
   radiant_win boolean null,
   min_radiant_gold_advantage int null,
   max_radiant_gold_advantage int null,

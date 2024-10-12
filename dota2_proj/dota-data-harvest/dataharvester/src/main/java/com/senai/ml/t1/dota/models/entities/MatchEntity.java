@@ -11,7 +11,6 @@ import io.micronaut.data.annotation.MappedEntity;
 import io.micronaut.serde.annotation.Serdeable;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Getter;
@@ -33,28 +32,28 @@ public class MatchEntity {
   @Nullable
   private Integer firstBloodTime;
 
-  @NotNull
+  @Nullable
   private List<Integer> radiantGoldAdvantage;
 
-  @NotNull
+  @Nullable
   private List<Integer> radiantExperienceAdvantage;
 
-  @NotNull
+  @Nullable
   private Boolean radiantWin;
 
-  @NotNull
+  @Nullable
   private int minRadiantGoldAdvantage;
 
-  @NotNull
+  @Nullable
   private int maxRadiantGoldAdvantage;
 
-  @NotNull
+  @Nullable
   private double meanRadiantGoldAdvantage;
 
-  @NotNull
+  @Nullable
   private double stdDevRadiantGoldAdvantage;
 
-  @NotNull
+  @Nullable
   private int finalRadiantGoldAdvantage;
 
   public MatchEntity(OpenDotaMatch match) {
@@ -64,10 +63,12 @@ public class MatchEntity {
     this.radiantExperienceAdvantage = match.getRadiantExperienceAdvantage();
     this.radiantWin = match.getRadiantWin();
 
-    this.minRadiantGoldAdvantage = Collections.min(radiantGoldAdvantage);
-    this.maxRadiantGoldAdvantage = Collections.max(radiantGoldAdvantage);
-    this.meanRadiantGoldAdvantage = radiantGoldAdvantage.stream().mapToInt(Integer::intValue).average().orElse(0);
-    this.stdDevRadiantGoldAdvantage = MathHelper.calculateStandardDeviation(radiantGoldAdvantage);
-    this.finalRadiantGoldAdvantage = radiantGoldAdvantage.get(radiantGoldAdvantage.size() - 1);
+    if (radiantGoldAdvantage != null && !radiantGoldAdvantage.isEmpty()) {
+      this.minRadiantGoldAdvantage = Collections.min(radiantGoldAdvantage);
+      this.maxRadiantGoldAdvantage = Collections.max(radiantGoldAdvantage);
+      this.meanRadiantGoldAdvantage = radiantGoldAdvantage.stream().mapToInt(Integer::intValue).average().orElse(0);
+      this.stdDevRadiantGoldAdvantage = MathHelper.calculateStandardDeviation(radiantGoldAdvantage);
+      this.finalRadiantGoldAdvantage = radiantGoldAdvantage.get(radiantGoldAdvantage.size() - 1);
+    }
   }
 }
