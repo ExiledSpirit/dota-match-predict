@@ -23,7 +23,7 @@ public class FetchMatchesScheduler {
     this.matchService = matchService;
   }
 
-  @Scheduled(fixedRate = "60s")
+  @Scheduled(fixedRate = "120s")
   public void getPublicMatches() {
     // Dispose previous subscription if it exists
     if (subscription != null && !subscription.isDisposed()) {
@@ -37,7 +37,7 @@ public class FetchMatchesScheduler {
     publicMatchesBean.setPage(1);
 
     // Fetch the public matches and process them
-    subscription = openDotaClient.getPublicMatches(publicMatchesBean)
+    subscription = openDotaClient.getParsedMatches()
         .flatMapMany(Flux::fromIterable) // Convert List<Match> to Flux<Match>
         .filter(match -> !matchService.isMatchAlreadyFetched(match.getMatchId()))
         .doOnNext(match -> log.info("Fetching match details of ID: {}", match.getMatchId()))

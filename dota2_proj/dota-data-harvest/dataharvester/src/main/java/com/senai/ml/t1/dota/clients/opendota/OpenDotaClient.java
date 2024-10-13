@@ -6,6 +6,7 @@ import com.senai.ml.t1.dota.annotations.RateLimited;
 import com.senai.ml.t1.dota.clients.opendota.requestbean.PublicMatchesBean;
 import com.senai.ml.t1.dota.models.opendota.OpenDotaMatch;
 import com.senai.ml.t1.dota.models.opendota.OpenDotaMatchOverview;
+import com.senai.ml.t1.dota.models.opendota.OpenDotaParsedMatch;
 
 import io.micronaut.http.annotation.Get;
 import io.micronaut.http.annotation.PathVariable;
@@ -22,4 +23,8 @@ public interface OpenDotaClient {
   @RateLimited
   @Get("/publicMatches")
   Mono<List<OpenDotaMatchOverview>> getPublicMatches(@RequestBean PublicMatchesBean publicMatchesBean);
+
+  @RateLimited
+  @Get("/parsedMatches")
+  Mono<List<OpenDotaParsedMatch>> getParsedMatches();
 }

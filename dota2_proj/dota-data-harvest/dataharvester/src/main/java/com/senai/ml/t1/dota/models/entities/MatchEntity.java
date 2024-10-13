@@ -16,7 +16,9 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Serdeable
 @MappedEntity
 @Data
@@ -56,6 +58,21 @@ public class MatchEntity {
   @Nullable
   private int finalRadiantGoldAdvantage;
 
+  @Nullable
+  private int minRadiantExperienceAdvantage;
+
+  @Nullable
+  private int maxRadiantExperienceAdvantage;
+
+  @Nullable
+  private double meanRadiantExperienceAdvantage;
+
+  @Nullable
+  private double stdDevRadiantExperienceAdvantage;
+
+  @Nullable
+  private int finalRadiantExperienceAdvantage;
+
   public MatchEntity(OpenDotaMatch match) {
     this.id = match.getMatchId();
     this.firstBloodTime = match.getFirstBloodTime();
@@ -69,6 +86,15 @@ public class MatchEntity {
       this.meanRadiantGoldAdvantage = radiantGoldAdvantage.stream().mapToInt(Integer::intValue).average().orElse(0);
       this.stdDevRadiantGoldAdvantage = MathHelper.calculateStandardDeviation(radiantGoldAdvantage);
       this.finalRadiantGoldAdvantage = radiantGoldAdvantage.get(radiantGoldAdvantage.size() - 1);
+    }
+
+    if (radiantExperienceAdvantage != null && !radiantExperienceAdvantage.isEmpty()) {
+      this.minRadiantExperienceAdvantage = Collections.min(radiantExperienceAdvantage);
+      this.maxRadiantExperienceAdvantage = Collections.max(radiantExperienceAdvantage);
+      this.meanRadiantExperienceAdvantage = radiantExperienceAdvantage.stream().mapToInt(Integer::intValue).average()
+          .orElse(0);
+      this.stdDevRadiantExperienceAdvantage = MathHelper.calculateStandardDeviation(radiantExperienceAdvantage);
+      this.finalRadiantExperienceAdvantage = radiantExperienceAdvantage.get(radiantExperienceAdvantage.size() - 1);
     }
   }
 }
