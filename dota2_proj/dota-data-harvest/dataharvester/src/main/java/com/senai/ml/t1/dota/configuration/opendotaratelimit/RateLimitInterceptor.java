@@ -7,7 +7,6 @@ import com.senai.ml.t1.dota.exceptions.NoRemainingMinuteTokensAvailableException
 import io.micronaut.aop.InterceptorBean;
 import io.micronaut.aop.MethodInterceptor;
 import io.micronaut.aop.MethodInvocationContext;
-import io.micronaut.http.client.exceptions.HttpClientResponseException;
 import jakarta.inject.Singleton;
 
 @Singleton

@@ -18,7 +18,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
 @Serdeable
 @MappedEntity
 @Data
@@ -27,7 +26,7 @@ import lombok.extern.slf4j.Slf4j;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity(name = "match")
-public class MatchEntity {
+public class MatchEntity extends CsvPrintable {
   @Id
   private Long id;
 

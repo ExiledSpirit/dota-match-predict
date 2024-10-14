@@ -35,4 +35,8 @@ public class MatchService {
   public List<MatchEntity> saveAllMatches(List<OpenDotaMatch> matches) {
     return this.matchRepository.saveAll(matches.stream().map(MatchEntity::new).toList());
   }
+
+  public List<MatchEntity> getAll() {
+    return this.matchRepository.findAll();
+  }
 }
