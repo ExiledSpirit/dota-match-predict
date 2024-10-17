@@ -48,6 +48,21 @@ regressors = {
     "MLP Regressor [1024, 512]": MLPRegressor(
         hidden_layer_sizes=(1024, 512), max_iter=1000, random_state=42
     ),
+    "MLP Regressor [512, 256] (tanh)": MLPRegressor(
+        hidden_layer_sizes=(512, 256), max_iter=1000, random_state=42, activation="tanh"
+    ),
+    "MLP Regressor [1024, 512, 256] (tanh)": MLPRegressor(
+        hidden_layer_sizes=(1024, 512, 256),
+        max_iter=1000,
+        random_state=42,
+        activation="tanh",
+    ),
+    "MLP Regressor [1024, 512] (tanh)": MLPRegressor(
+        hidden_layer_sizes=(1024, 512),
+        max_iter=1000,
+        random_state=42,
+        activation="tanh",
+    ),
 }
 
 for name, regressor in regressors.items():
