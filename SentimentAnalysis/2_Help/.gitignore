@@ -1,3 +1,0 @@
-*.gguf
-models/*.pkl
-models/*.pickle
